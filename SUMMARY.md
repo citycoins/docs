@@ -15,6 +15,7 @@
 ## Resources
 
 * [CityCoins Website](https://citycoins.co)
+* [CityCoins Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
 * [CityCoins FAQ](https://www.citycoins.co/citycoins-faq)
 * [CityCoins Twitter](https://twitter.com/mineCityCoins)
 * [CityCoins UI](https://testnet.minemiamicoin.com)
