@@ -17,6 +17,7 @@
 * [CityCoins Website](https://citycoins.co)
 * [CityCoins FAQ](https://www.citycoins.co/citycoins-faq)
 * [CityCoins Twitter](https://twitter.com/mineCityCoins)
+* [CityCoins UI](https://testnet.minemiamicoin.com)
 * [GitHub Repositories](https://github.com/citycoins)
 * [Issuance Schedule](https://github.com/citycoins/citycoin/blob/main/citycoin-prd.md#issuance-schedule)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
