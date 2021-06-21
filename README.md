@@ -1,8 +1,10 @@
 ---
-description: Learn more about CityCoins!
+description: >-
+  CityCoins are cryptocurrencies that allow you to support your favorite cities
+  while earning yield in Bitcoin.
 ---
 
-# CityCoins Documentation
+# Introduction
 
 GitHub repositories:
 
