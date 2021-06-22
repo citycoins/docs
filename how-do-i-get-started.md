@@ -18,5 +18,5 @@ To acquire Stacks, please see the [market list on CoinMarketCap](https://coinmar
 
 All CityCoins are fungible tokens on the Stacks blockchain, meaning they are stored, displayed, and used in the Stacks Web Wallet. An example screenshot from testnet is below:
 
-![](.gitbook/assets/image.png)
+![wallet display example from testnet](.gitbook/assets/wallet-token-example%20%281%29.png)
 
