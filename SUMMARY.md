@@ -24,6 +24,5 @@
 ## Additional Resources
 
 * [GitHub Organization](https://github.com/citycoins)
-* [Issuance Schedule](https://github.com/citycoins/citycoin/blob/main/citycoin-prd.md#issuance-schedule)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
 
