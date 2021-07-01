@@ -1,7 +1,5 @@
 # Stacking CityCoins
 
-## Description
-
 Stacking CityCoins is performed by transferring CityCoins into the smart contract for a selected number of reward cycles. Reward cycles are 2,100 Stacks blocks in length \(about two weeks\), similar to Stacking STX.
 
 When Stacking, you must select:

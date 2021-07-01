@@ -1,7 +1,5 @@
 # Activation of Mining
 
-## **Description**
-
 The launch of a CityCoin happens in a two-step process:
 
 1. The contract for a CityCoin is deployed to the Stacks blockchain
