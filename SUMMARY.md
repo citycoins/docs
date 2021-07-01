@@ -16,6 +16,7 @@
 ## CityCoins Resources
 
 * [Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
+* [Discord](https://chat.citycoins.co)
 * [FAQ](https://www.citycoins.co/citycoins-faq)
 * [Mine and Stack \(testnet\)](https://testnet.minemiamicoin.com)
 * [Twitter](https://twitter.com/mineCityCoins)
@@ -27,4 +28,6 @@
 * [GitHub Organization](https://github.com/citycoins)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
 * [Stacks Blockchain](https://www.stacks.co/)
+* [Stacks Explorer](https://explorer.stacks.co)
+* [Stacks Web Wallet](https://www.hiro.so/wallet/install-web)
 

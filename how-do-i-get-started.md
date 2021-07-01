@@ -14,9 +14,13 @@ As mentioned above, all transactions with CityCoins require Stacks \(STX\) as fu
   
 To acquire Stacks, please see the [market list on CoinMarketCap](https://coinmarketcap.com/currencies/stacks/markets/) for supported exchanges.
 
-## **How to Hodl CityCoins**
+## **How to HODL CityCoins**
 
-All CityCoins are fungible tokens on the Stacks blockchain, meaning they are stored, displayed, and used in the Stacks Web Wallet. An example screenshot from testnet is below:
+All CityCoins are fungible tokens on the Stacks blockchain, meaning they are stored as part of your Stacks account and viewable on the Explorer.
+
+The [Stacks Web Wallet](https://www.hiro.so/wallet/install-web) allows you to view your balance, send and receive CityCoins, and interact with smart contracts.
+
+An example screenshot from the Stacks testnet is below:
 
 ![wallet display example from testnet](.gitbook/assets/wallet-token-example%20%281%29.png)
 
