@@ -4,22 +4,26 @@
 * [What are CityCoins?](what-are-citycoins.md)
 * [How do I get started?](how-do-i-get-started.md)
 
-## Contract Functions
+## CityCoins Protocol
 
-* [Activation of Mining](contract-functions/activation-of-mining.md)
-* [Mining CityCoins](contract-functions/mining-citycoins.md)
-* [Claiming Mining Rewards](contract-functions/claiming-mining-rewards.md)
-* [Stacking CityCoins](contract-functions/stacking-citycoins.md)
-* [Claiming Stacking Rewards](contract-functions/claiming-stacking-rewards.md)
+* [Activation of Mining](citycoins-protocol/activation-of-mining.md)
+* [Mining CityCoins](citycoins-protocol/mining-citycoins.md)
+* [Claiming Mining Rewards](citycoins-protocol/claiming-mining-rewards.md)
+* [Stacking CityCoins](citycoins-protocol/stacking-citycoins.md)
+* [Claiming Stacking Rewards](citycoins-protocol/claiming-stacking-rewards.md)
+* [Issuance Schedule](citycoins-protocol/issuance-schedule.md)
 
-## Resources
+## CityCoins Resources
 
-* [CityCoins Website](https://citycoins.co)
-* [CityCoins Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
-* [CityCoins FAQ](https://www.citycoins.co/citycoins-faq)
-* [CityCoins Twitter](https://twitter.com/mineCityCoins)
-* [CityCoins UI](https://testnet.minemiamicoin.com)
-* [GitHub Repositories](https://github.com/citycoins)
+* [Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
+* [FAQ](https://www.citycoins.co/citycoins-faq)
+* [Mine and Stack \(testnet\)](https://testnet.minemiamicoin.com)
+* [Twitter](https://twitter.com/mineCityCoins)
+* [Website](https://citycoins.co)
+
+## Additional Resources
+
+* [GitHub Organization](https://github.com/citycoins)
 * [Issuance Schedule](https://github.com/citycoins/citycoin/blob/main/citycoin-prd.md#issuance-schedule)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
 
