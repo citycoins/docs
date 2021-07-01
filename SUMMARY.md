@@ -23,6 +23,8 @@
 
 ## Additional Resources
 
+* [Clarity Documentation](https://docs.stacks.co/references/language-overview)
 * [GitHub Organization](https://github.com/citycoins)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
+* [Stacks Blockchain](https://www.stacks.co/)
 
