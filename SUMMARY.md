@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [What are CityCoins?](what-are-citycoins.md)
 * [How do I get started?](how-do-i-get-started.md)
+* [Testnet FAQ](testnet-faq.md)
 
 ## CityCoins Protocol
 
