@@ -22,10 +22,18 @@
 * [Twitter](https://twitter.com/mineCityCoins)
 * [Website](https://citycoins.co)
 
+## Clarity Resources
+
+* [Language Overview](https://docs.stacks.co/references/language-overview)
+* [Clarity Functions](https://docs.stacks.co/references/language-functions)
+* [Clarity Keywords](https://docs.stacks.co/references/language-keywords)
+* [Clarity Types](https://docs.stacks.co/references/language-types)
+* [Clarinet](https://github.com/hirosystems/clarinet)
+* [VSCode Extension](https://github.com/hirosystems/clarity-lsp)
+
 ## Additional Resources
 
-* [Clarity Documentation](https://docs.stacks.co/references/language-overview)
-* [GitHub Organization](https://github.com/citycoins)
+* [CityCoins GitHub](https://github.com/citycoins)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
 * [Stacks Blockchain](https://www.stacks.co/)
 * [Stacks Explorer](https://explorer.stacks.co)
