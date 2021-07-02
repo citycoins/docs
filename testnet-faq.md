@@ -23,6 +23,15 @@ Based on the CityCoins Protocol section on the left, you can:
 * _Stack_ - by sending testnet CityCoins into the contract for a selected number of reward cycles
 * _Claim Stacking Rewards_ - by sending a transaction that claims your Stacked CityCoins and any resulting STX from testnet miners
 
+## What is different on testnet versus mainnet?
+
+In order to provide a smoother testing experience, some thresholds were reduced on testnet and are outlined below:
+
+* reduce token-reward-maturity: u100 to u10 \(~1.6hrs\)
+* reduce reward-cycle-length: u500 to u50 \(~8hrs\)
+* reduce activation threshold to u3 registrants
+* reduce mining activation delay to u3 blocks
+
 ## Where can I get testnet STX?
 
 You can request [Testnet STX tokens](https://explorer.stacks.co/sandbox/faucet?chain=testnet) from the faucet or drop a message with your testnet STX address in [our Discord](https://chat.citycoins.co).
