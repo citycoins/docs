@@ -4,8 +4,6 @@
 
 CityCoins offer people a way to support their city and grow its crypto treasury while earning Bitcoin BTC and [Stacks](https://www.stacks.co/) STX for themselves. Each city has their own coin, starting with Miami and MiamiCoin \($MIA\).
 
-CityCoins are municipal equity, as opposed to municipal debt.
-
 ## **What is MiamiCoin?**
 
 MiamiCoin \($MIA\) is the first CityCoin to market, going live soon. MiamiCoin is a cryptocurrency powered by the Stacks Protocol, which enables smart contracts on Bitcoin.
