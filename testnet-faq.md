@@ -1,5 +1,13 @@
 # Testnet FAQ
 
+{% hint style="info" %}
+ The testnet was reset to a fresh chainstate on 2021/07/12.
+
+Mining will be unavailable until a new contract is deployed.
+
+Please watch the `#user-interface` channel in the [CityCoins Discord](https://chat.citycoins.co/) for more information.
+{% endhint %}
+
 This FAQ is specifically about our testnet launch, for more information about CityCoins in general please see the [CityCoins FAQ](https://citycoins.co/citycoins-faq) or select an item from the menu on the left.
 
 ## Is CityCoins testnet open for everyone?
