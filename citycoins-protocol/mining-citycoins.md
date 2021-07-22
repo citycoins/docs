@@ -23,12 +23,5 @@ You can only submit a mining bid once per block. Once that transaction confirms 
 
 You can optionally mine for 30 blocks in one transaction at a given rate by submitting the total bid up front. Once that transaction confirms then the bid is locked in and distributed evenly across those 30 blocks.
 
-If you submit a mining transaction in a block where you are already mining, it will fail.  
-  
-There is a maximum of 128 miners per block, however once that threshold is reached, additional miners can still submit a bid subject to the following rules:
-
-* if the bid is lower than the lowest bid of the 128 miners, then the bid is rejected and the transaction fails
-* if the bid is higher than the lowest bid of the 128 miners, then the lowest bidder is pushed out from the list
-
-**Please note: Miners who has been pushed out of the list are not taking part of the winner selection and their commitment is not refundable.**
+If you submit a mining transaction in a block where you are already mining, it will fail.
 
