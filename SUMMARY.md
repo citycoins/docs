@@ -7,7 +7,7 @@
 
 ## CityCoins Protocol
 
-* [Activation of Mining](citycoins-protocol/activation-of-mining.md)
+* [Registration and Activation](citycoins-protocol/activation-of-mining.md)
 * [Mining CityCoins](citycoins-protocol/mining-citycoins.md)
 * [Claiming Mining Rewards](citycoins-protocol/claiming-mining-rewards.md)
 * [Stacking CityCoins](citycoins-protocol/stacking-citycoins.md)
