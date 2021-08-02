@@ -13,13 +13,7 @@
 * [Stacking CityCoins](citycoins-core-protocol/stacking-citycoins.md)
 * [Claiming Stacking Rewards](citycoins-core-protocol/claiming-stacking-rewards.md)
 * [Token Configuration](citycoins-core-protocol/token-configuration.md)
-
-## CityCoins Token Protocol
-
-* [SIP-010](citycoins-token-protocol/sip-010.md)
-* [Token Configuration](citycoins-token-protocol/token-configuration.md)
-* [Send-Many](citycoins-token-protocol/send-many.md)
-* [Issuance Schedule](citycoins-token-protocol/issuance-schedule.md)
+* [Issuance Schedule](citycoins-core-protocol/issuance-schedule.md)
 
 ## CityCoins Resources
 
