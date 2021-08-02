@@ -5,14 +5,21 @@
 * [How do I get started?](how-do-i-get-started.md)
 * [Testnet FAQ](testnet-faq.md)
 
-## CityCoins Protocol
+## CityCoins Core Protocol
 
-* [Registration and Activation](citycoins-protocol/registration-and-activation.md)
-* [Mining CityCoins](citycoins-protocol/mining-citycoins.md)
-* [Claiming Mining Rewards](citycoins-protocol/claiming-mining-rewards.md)
-* [Stacking CityCoins](citycoins-protocol/stacking-citycoins.md)
-* [Claiming Stacking Rewards](citycoins-protocol/claiming-stacking-rewards.md)
-* [Issuance Schedule](citycoins-protocol/issuance-schedule.md)
+* [Registration and Activation](citycoins-core-protocol/registration-and-activation.md)
+* [Mining CityCoins](citycoins-core-protocol/mining-citycoins.md)
+* [Claiming Mining Rewards](citycoins-core-protocol/claiming-mining-rewards.md)
+* [Stacking CityCoins](citycoins-core-protocol/stacking-citycoins.md)
+* [Claiming Stacking Rewards](citycoins-core-protocol/claiming-stacking-rewards.md)
+* [Token Configuration](citycoins-core-protocol/token-configuration.md)
+
+## CityCoins Token Protocol
+
+* [SIP-010](citycoins-token-protocol/sip-010.md)
+* [Token Configuration](citycoins-token-protocol/token-configuration.md)
+* [Send-Many](citycoins-token-protocol/send-many.md)
+* [Issuance Schedule](citycoins-token-protocol/issuance-schedule.md)
 
 ## CityCoins Resources
 
