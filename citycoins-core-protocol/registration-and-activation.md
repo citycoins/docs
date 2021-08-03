@@ -19,7 +19,7 @@ A nominal transaction fee is required in order to send this transaction, paid in
 
 The general process is as follows:
 
-* Download and install the [Stacks Web Wallet](https://hiro.com/wallet/install-web), a browser extension for Chrome/Firefox that interacts with the Stacks blockchain _Note: mobile is not supported at this time, please use a desktop_
+* Download and install the [Stacks Web Wallet](https://hiro.so/wallet/install-web), a browser extension for Chrome/Firefox that interacts with the Stacks blockchain _Note: mobile is not supported at this time, please use a desktop_
 * Fund the Stacks address with enough STX to at least cover the transaction fee, or with an amount that you plan to use for mining _Note: to acquire Stacks, please see the_ [_market list on CoinMarketCap_](https://coinmarketcap.com/currencies/stacks/markets/) _for supported exchanges._
 * Submit the `register-user` transaction via the user interface, which records your Stacks address and optional memo on chain to signal activation of the CityCoin _Note: once the threshold of 20 miners is reached, mining will begin in 150 Stacks blocks \(~24hrs\)_
 
