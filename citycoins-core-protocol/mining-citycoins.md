@@ -21,7 +21,9 @@ _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice h
 
 You can only submit a mining bid once per block. Once that transaction confirms then the bid is locked in.
 
-You can optionally mine for 30 blocks in one transaction at a given rate by submitting the total bid up front. Once that transaction confirms then the bid is locked in and distributed evenly across those 30 blocks.
+You can optionally mine for multiple blocks in one transaction, by selecting the amount to send per block and submitting the total bid up front. Once that transaction confirms then the bid is locked in for the following blocks.
+
+_Note: you can mine for up to 200 blocks based on the function in the contract, however due to how costs are calculated per block the transaction may fail. It is recommended to submit for less than 100 blocks._
 
 If you submit a mining transaction in a block where you are already mining, it will fail.
 
