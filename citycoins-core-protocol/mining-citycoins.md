@@ -11,6 +11,26 @@ Once the STX tokens are sent into the contract, they are distributed in one of t
 
 ‍**Please note: Right after mining is activated and during the first reward cycle \(reward cycle \#0\), 100% of all STX sent by miners is transferred to the city.** During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely.
 
+## Details
+
+Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
+
+A nominal transaction fee is required in order to send this transaction, paid in STX, and in a single mining transaction, you can optionally include a memo that will be recorded on-chain.
+
+To mine for a single block with `mine-tokens`:
+
+* enter the amount you would like to bid for the block
+* \(optionally\) enter a memo to be recorded on chain
+* submit the transaction to the smart contract
+
+To mine for multiple blocks  with `mine-many`:
+
+* select the number of blocks you would like to mine for
+* enter the amount for each of the number of blocks selected
+* submit the transaction to the smart contract
+
+_Note: once STX are submitted to the contract they are distributed to the city's custodied wallet and Stackers of MiamiCoin._
+
 ## **Winner Selection**
 
 After miners send their STX to the contract, a winner is selected by a Verifiable Random Function \(VRF\) weighted by the individual miners' bid compared to the total miners' bids sent in that block.  
