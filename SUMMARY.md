@@ -14,6 +14,7 @@
 * [Claiming Stacking Rewards](citycoins-core-protocol/claiming-stacking-rewards.md)
 * [Token Configuration](citycoins-core-protocol/token-configuration.md)
 * [Issuance Schedule](citycoins-core-protocol/issuance-schedule.md)
+* [CityCoin Contracts](citycoins-core-protocol/citycoin-contracts.md)
 
 ## CityCoins Resources
 
