@@ -1,6 +1,6 @@
 # Issuance Schedule
 
-Miners receive coinbase rewards for mining CityCoins outlined in the table on this page. 
+Miners receive coinbase rewards for mining CityCoins outlined in the table on this page per block.
 
 The issuance schedule does not begin until [mining is activated](registration-and-activation.md), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
 
