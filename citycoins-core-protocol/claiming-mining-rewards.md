@@ -6,6 +6,14 @@ Miners must wait for a maturity window of 100 blocks \(~16 hours\) before they c
   
 ‍**Please note:** CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
 
+## Details
+
+Claiming mining rewards for CityCoins is available through the [hosted user interface](https://minemiamicoin.com).
+
+If a user is a winner for that block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](issuance-schedule.md).
+
+If a user is not the winner for a block, the transaction will fail.
+
 ## Related Contract Functions
 
 ### claim-mining-reward

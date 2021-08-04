@@ -13,7 +13,7 @@ Once the STX tokens are sent into the contract, they are distributed in one of t
 
 ## Details
 
-Mining CityCoins is available through the [hosted user interface](https://minemiamicoin.com).
+Mining CityCoins is available through the [hosted user interface](https://minemiamicoin.com) and mining begins at [block \#24497](https://explorer.stacks.co/blocks?chain=mainnet).
 
 Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
 
@@ -38,6 +38,8 @@ _Note: once STX are submitted to the contract they are distributed to the city's
 After miners send their STX to the contract, a winner is selected by a Verifiable Random Function \(VRF\) weighted by the individual miners' bid compared to the total miners' bids sent in that block.  
   
 _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
+
+Mining rewards cannot be claimed until a 100 block maturity window passes, for more info see [Claiming Mining Rewards](claiming-mining-rewards.md).
 
 ## **Mining Strategy**
 
