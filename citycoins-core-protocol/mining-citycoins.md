@@ -13,6 +13,8 @@ Once the STX tokens are sent into the contract, they are distributed in one of t
 
 ## Details
 
+Mining CityCoins is available through the [hosted user interface](https://minemiamicoin.com).
+
 Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
 
 A nominal transaction fee is required in order to send this transaction, paid in STX, and in a single mining transaction, you can optionally include a memo that will be recorded on-chain.
