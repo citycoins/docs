@@ -1,7 +1,5 @@
 # Claiming Mining Rewards
 
-## _Please note: if the `is-block-winner` function is called before the 100 block maturity window passes, it will return false._
-
 ## Overview
 
 Miners must wait for a maturity window of 100 blocks \(~16 hours\) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.  
