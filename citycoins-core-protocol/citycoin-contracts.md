@@ -13,3 +13,5 @@
 * [miamicoin-auth](https://explorer.stacks.co/txid/0x3c9303ada7f0dbf6f814722cb4a6c13752f187bde0b800bd6f84a342505e006b?chain=mainnet) contract that enables administrative functions
 * [Miami Wallet Address](https://explorer.stacks.co/address/SM2MARAVW6BEJCD13YV2RHGYHQWT7TDDNMNRB1MVT?chain=mainnet) address used by the contract for MiamiCoin protocol distribution
 
+**Please note:** the City of Miami has not yet officially claimed the MiamiCoin protocol contribution.
+
