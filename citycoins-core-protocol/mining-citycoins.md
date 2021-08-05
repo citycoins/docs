@@ -2,7 +2,7 @@
 
 ## Overview
 
-Mining CityCoins is performed by transferring Stacks \(STX\) tokens into the smart contract in a given Stacks block, and is a one-way process. Miners can only participate once per block.
+Mining CityCoins is performed by transferring Stacks \(STX\) tokens into the smart contract in a given Stacks block, **and is a one-way process**. Once sent, the STX are committed to the contract and not returned. Miners can only participate once per block.
 
 Once the STX tokens are sent into the contract, they are distributed in one of two ways:
 
