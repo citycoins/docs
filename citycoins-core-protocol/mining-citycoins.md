@@ -51,6 +51,20 @@ _Note: you can mine for up to 200 blocks based on the function in the contract, 
 
 If you submit a mining transaction in a block where you are already mining, it will fail.
 
+The probability to win at least one block in a sequence of blocks with a fixed commit of `C` STX and a total of other miners `T` STX is the following:
+
+```
+P(win at least 1 block in N blocks) = 1 - (T / (T + C)) ^ N
+```
+
+An example in real numbers: commit of other miners is 500STX, you have 200STX to spent. 
+* Spending 1 STX of 200 blocks P = 32,9%
+* Spending 10 STX of 20 blocks P = 32,7%
+* Spending 15 STX in 16 blocks: P = 37,6%
+* Spending 100 STX in 2 blocks P =  30,5%
+* Spending 200 STX in 1 block:  P = 28,5%
+
+
 ## Related Contract Functions
 
 ### get-mining-stats-at-block
