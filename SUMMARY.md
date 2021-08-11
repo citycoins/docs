@@ -21,7 +21,8 @@
 * [Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
 * [Discord](https://chat.citycoins.co)
 * [FAQ](https://www.citycoins.co/citycoins-faq)
-* [Mine and Stack \(testnet\)](https://testnet.minemiamicoin.com)
+* [Mine & Stack App \#1](https://minemiamicoin.com)
+* [Mine & Stack App \#2](https://minecitycoins.com)
 * [Twitter](https://twitter.com/mineCityCoins)
 * [Website](https://citycoins.co)
 

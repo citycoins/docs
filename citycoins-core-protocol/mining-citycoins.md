@@ -25,7 +25,7 @@ To mine for a single block with `mine-tokens`:
 * \(optionally\) enter a memo to be recorded on chain
 * submit the transaction to the smart contract
 
-To mine for multiple blocks  with `mine-many`:
+To mine for multiple blocks with `mine-many`:
 
 * select the number of blocks you would like to mine for
 * enter the amount for each of the number of blocks selected
@@ -35,8 +35,8 @@ _Note: once STX are submitted to the contract they are distributed to the city's
 
 ## **Winner Selection**
 
-After miners send their STX to the contract, a winner is selected by a Verifiable Random Function \(VRF\) weighted by the individual miners' bid compared to the total miners' bids sent in that block.  
-  
+After miners send their STX to the contract, a winner is selected by a Verifiable Random Function \(VRF\) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
+
 _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
 
 Mining rewards cannot be claimed until a 100 block maturity window passes, for more info see [Claiming Mining Rewards](claiming-mining-rewards.md).
@@ -53,17 +53,17 @@ If you submit a mining transaction in a block where you are already mining, it w
 
 The probability to win at least one block in a sequence of blocks with a fixed commit of `C` STX and a total of other miners `T` STX is the following:
 
-```
+```text
 P(win at least 1 block in N blocks) = 1 - (T / (T + C)) ^ N
 ```
 
-An example in real numbers: commit of other miners is 500STX, you have 200STX to spent. 
+An example in real numbers: commit of other miners is 500STX, you have 200STX to spent.
+
 * Spending 1 STX of 200 blocks P = 32,9%
 * Spending 10 STX of 20 blocks P = 32,7%
 * Spending 15 STX in 16 blocks: P = 37,6%
 * Spending 100 STX in 2 blocks P =  30,5%
 * Spending 200 STX in 1 block:  P = 28,5%
-
 
 ## Related Contract Functions
 
@@ -102,6 +102,4 @@ Type: Public Function
 ### mine-many
 
 Type: Public Function
-
-
 
