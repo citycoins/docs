@@ -15,3 +15,39 @@
 
 **Please note:** the City of Miami has not yet officially claimed the MiamiCoin protocol contribution.
 
+## Error Codes
+
+### miamicoin-core-v1
+
+| Error Code | Description |
+| :--- | :--- |
+| u1000 | ERR\_UNAUTHORIZED |
+| u1001 | ERR\_USER\_ALREADY\_REGISTERED |
+| u1002 | ERR\_USER\_NOT\_FOUND |
+| u1003 | ERR\_USER\_ID\_NOT\_FOUND |
+| u1004 | ERR\_ACTIVATION\_THRESHOLD\_REACHED |
+| u1005 | ERR\_CONTRACT\_NOT\_ACTIVATED |
+| u1006 | ERR\_USER\_ALREADY\_MINED |
+| u1007 | ERR\_INSUFFICIENT\_COMMITMENT |
+| u1008 | ERR\_INSUFFICIENT\_BALANCE |
+| u1009 | ERR\_USER\_DID\_NOT\_MINE\_IN\_BLOCK |
+| u1010 | ERR\_CLAIMED\_BEFORE\_MATURITY |
+| u1011 | ERR\_NO\_MINERS\_AT\_BLOCK |
+| u1012 | ERR\_REWARD\_ALREADY\_CLAIMED |
+| u1013 | ERR\_MINER\_DID\_NOT\_WIN |
+| u1014 | ERR\_NO\_VRF\_SEED\_FOUND |
+| u1015 | ERR\_STACKING\_NOT\_AVAILABLE |
+| u1016 | ERR\_CANNOT\_STACK |
+| u1017 | ERR\_REWARD\_CYCLE\_NOT\_COMPLETED |
+| u1018 | ERR\_NOTHING\_TO\_REDEEM |
+| ~~_u1019_~~ | ~~_ERR\_UNABLE\_TO\_FIND\_CITY\_WALLET_~~ |
+| u1020 | ERR\_CLAIM\_IN\_WRONG\_CONTRACT |
+
+### miamicoin-token
+
+| Error Code | Description |
+| :--- | :--- |
+| u2000 | ERR\_UNAUTHORIZED |
+| u2001 | ERR\_TOKEN\_NOT\_ACTIVATED |
+| u2002 | ERR\_TOKEN\_ALREADY\_ACTIVATED |
+

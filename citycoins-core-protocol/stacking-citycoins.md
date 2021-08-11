@@ -13,7 +13,11 @@ When Stacking, you must select:
 
 _e.g. if you select to Stack in a block height in reward cycle 1 then Stacking will begin in reward cycle 2._
 
-You cannot Stack in the currently active reward cycle.
+You cannot Stack in the currently active reward cycle, only for the next reward cycle.
+
+## Details
+
+
 
 ## Related Contract Functions
 
