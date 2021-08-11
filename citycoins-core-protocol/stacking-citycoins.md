@@ -17,7 +17,15 @@ You cannot Stack in the currently active reward cycle, only for the next reward 
 
 ## Details
 
+| Reward Cycle | Start Block | End Block |
+| :--- | :--- | :--- |
+| 0 | 24497 | 26596 |
+| 1 | 26597 | 28696 |
+| 2 | 28697 | 30796 |
+| 3 | 30797 | 32896 |
+| ...and so on at | 2,100 blocks | per cycle |
 
+The current reward cycle for a given block height can be found by calling `get-reward-cycle` in the contract and supplying the block height.
 
 ## Related Contract Functions
 
