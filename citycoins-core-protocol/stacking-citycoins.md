@@ -59,7 +59,8 @@ A: Yes, if you call the `stack-tokens` function before the block height of the n
 | 0 | none | none | none |
 | 1 | 1,000,000 CityCoins | 500,000 CityCoins | `(R * 1,000,000) / T` |
 | 2 | 500,000 CityCoins | 0 CityCoins | `(R * 500,000) / T` |
-| 3 | 500,000 CityCoins | 500,000 CityCoins | `(R * 500,000) / T` |
+| 3 | 500,000 CityCoins | 0 CityCoins | `(R * 500,000) / T` |
+| 4 | none | 500,000 CityCoins | none |
 
 ## Related Contract Functions
 
