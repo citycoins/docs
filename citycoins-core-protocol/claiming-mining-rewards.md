@@ -12,7 +12,7 @@ Claiming mining rewards for CityCoins is available through the [hosted user inte
 
 If a user is a winner for that block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](issuance-schedule.md).
 
-_Note: If a user is not the winner for a block, the transaction will fail. Optionally, a user can call the `is-block-winner` function to see if there address won a given block before claiming._
+_Note: If a user is not the winner for a block, the transaction will fail. Optionally, a user can call the `is-block-winner` function to see if their address won a given block before claiming._
 
 ## Related Contract Functions
 
