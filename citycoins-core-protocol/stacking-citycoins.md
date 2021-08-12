@@ -61,12 +61,6 @@ A: Yes, if you call the `stack-tokens` function before the block height of the n
 | 2 | 500,000 CityCoins | 0 CityCoins | `(R * 500,000) / T` |
 | 3 | 500,000 CityCoins | 500,000 CityCoins | `(R * 500,000) / T` |
 
-
-
-
-
-\*\*\*\*
-
 ## Related Contract Functions
 
 ### get-stacking-stats-at-cycle
