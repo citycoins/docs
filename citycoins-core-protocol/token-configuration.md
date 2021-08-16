@@ -74,7 +74,19 @@ Updating the token URI \([example: MiamiCoin](https://cdn.citycoins.co/metadata/
 
 Type: Public Function
 
+Input: `recipients as list of tuples, up to 200, including:`
 
+* `to as principal`
+* `amount as uint`
+* `memo as optional buff 34`
+
+Success: `(ok true)`
+
+Errors:
+
+* `ERR_UNAUTHORIZED u2000`
+
+Sending to many recipients happens through calling the `send-many` function in the token contract, which accepts a list up to 200 items in length.
 
 ## SIP-010 Functions
 
@@ -82,29 +94,77 @@ Type: Public Function
 
 Type: Public Function
 
+Input: `amount as  uint`, `from as principal`, `to as principal`, `memo as  optional buff 34`
+
+Success: `(ok true)`
+
+Errors:
+
+* `ERR_UNAUTHORIZED u2000`
+
+Transferring CityCoins from one account to another happens through calling the `transfer` function in the token contract, which accepts information about the transfer and an optional memo that is printed on-chain.
+
 ### get-name
 
 Type: Read-only Function
+
+Input: `none`
+
+Returns: `(ok tokenName)`
+
+Returns the full name of a CityCoin.
 
 ### get-symbol
 
 Type: Read-only Function
 
+Input: `none`
+
+Returns: `(ok tokenSymbol)`
+
+Returns the symbol of a CityCoin.
+
 ### get-decimals
 
 Type: Read-only Function
+
+Input: `none`
+
+Returns: `(ok tokenDecimals)`
+
+Returns the number of decimals used for a CityCoin.
 
 ### get-balance
 
 Type: Read-only Function
 
+Input: `user as principal`
+
+Returns: `(ok balance)`
+
+Returns the balance for a given user's principal.
+
 ### get-total-supply
 
 Type: Read-only Function
 
+Input: `none`
+
+Returns: `(ok totalSupply)`
+
+Returns the total supply for a CityCoin.
+
+_Note: the total supply only increases when miners claim their mining reward._
+
 ### get-token-uri
 
 Type: Read-only Function
+
+Input: `none`
+
+Returns: `(ok tokenUri)`
+
+Returns the token URI for a CityCoin.
 
 
 
