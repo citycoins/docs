@@ -25,6 +25,11 @@
 * [Twitter](https://twitter.com/mineCityCoins)
 * [Website](https://citycoins.co)
 
+## Community Tools
+
+* [MIA Mining Dashboard](https://mia-mining-analysis.mutharasus.repl.co/)
+* [MIA Mining Block Explorer](http://miamining.com/)
+
 ## Clarity Resources
 
 * [Language Overview](https://docs.stacks.co/references/language-overview)
