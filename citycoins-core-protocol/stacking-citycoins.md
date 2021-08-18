@@ -49,7 +49,7 @@ A: No, once `stack-tokens` is called the CityCoins are transferred to the smart 
 A: Yes, when you are finished Stacking and reclaim your CityCoins, you can then stack for the _next cycle_. For example, with MiamiCoin \(MIA\):
 
 * A user submits a Stacking transaction at block height \#26386 for one cycle
-* Since block \#26836 is part of Cycle 0, the MIA are Stacked for Cycle 1
+* Since block \#26386 is part of Cycle 0, the MIA are Stacked for Cycle 1
 * After Cycle 1 finishes at \#28696, the user can reclaim their STX rewards and their Stacked MIA
 * The user submits a Stacking transaction at block height \#28697 for one cycle
 * Since block \#28697 is part of Cycle 2, the MIA are Stacked for Cycle 3
