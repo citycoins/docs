@@ -17,11 +17,11 @@
 
 ## CityCoins Resources
 
+* [MineMiamiCoin.com](https://minemiamicoin.com)
+* [MineCityCoins.com](https://minecitycoins.com)
 * [Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
 * [Discord](https://chat.citycoins.co)
 * [FAQ](https://www.citycoins.co/citycoins-faq)
-* [Mine & Stack App \#1](https://minemiamicoin.com)
-* [Mine & Stack App \#2](https://minecitycoins.com)
 * [Twitter](https://twitter.com/mineCityCoins)
 * [Website](https://citycoins.co)
 
@@ -34,6 +34,8 @@
 
 ## Developer Resources
 
+* [MineCityCoins.com Repo](https://github.com/citycoins/citycoin-ui)
+* [MineMaimiCoin.com Repo](https://github.com/miamicoin/ui)
 * [Stacks Connect](https://github.com/blockstack/connect)
 * [Stacks.js](https://github.com/blockstack/stacks.js/)
 * [Stacks Docs: Build Apps](https://docs.stacks.co/build-apps/overview)
