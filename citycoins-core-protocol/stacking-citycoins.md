@@ -7,7 +7,7 @@ Stacking CityCoins is performed by transferring CityCoins into the smart contrac
 When Stacking, you must select:
 
 * the amount of CityCoins you want to Stack, which will be sent to the smart contract
-* the number of reward cycles you want to participate in, maximum 32
+* the number of reward cycles you want to participate in, maximum 32 \(~16 months\)
 
 **Please note:** the block height chosen for Stacking will automatically select the _next reward cycle_ to start Stacking CityCoins.
 
