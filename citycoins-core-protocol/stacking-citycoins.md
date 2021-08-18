@@ -44,6 +44,17 @@ A: No, however the STX rewards for a given cycle are proportionate to the amount
 
 A: No, once `stack-tokens` is called the CityCoins are transferred to the smart contract and the values are set.
 
+**Q: Is there a "cooldown" between cycles?**
+
+A: Yes, when you are finished Stacking and reclaim your CityCoins, you can then stack for the _next cycle_. For example, with MiamiCoin \(MIA\):
+
+* A user submits a Stacking transaction at block height \#26386 for one cycle
+* Since block \#26836 is part of Cycle 0, the MIA are Stacked for Cycle 1
+* After Cycle 1 finishes at \#28696, the user can reclaim their STX rewards and their Stacked MIA
+* The user submits a Stacking transaction at block height \#28697 for one cycle
+* Since block \#28697 is part of Cycle 2, the MIA are Stacked for Cycle 3
+* After Cycle 3 finishes at \#32896, the user can reclaim their STX rewards and their Stacked MIA
+
 **Q: Can I Stack additional tokens for a cycle?**
 
 A: Yes, if you call the `stack-tokens` function before the block height of the next cycle, you can add to the amount Stacked as well as choose different amounts for a different number of cycles. In a more complex example:
