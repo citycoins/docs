@@ -27,9 +27,16 @@
 
 ## Community Tools
 
+* [Catamaran Swaps](https://www.catamaranswaps.org/)
 * [MIA Analysis Script](https://gitlab.com/riot.ai/clarity-pool-tools/-/blob/master/tool-scripts/analysis-citycoins.ts)
 * [MIA Mining Block Explorer](http://miamining.com/)
 * [MIA Mining Dashboard](https://mia-mining-analysis.mutharasus.repl.co/)
+
+## Developer Resources
+
+* [Stacks Connect](https://github.com/blockstack/connect)
+* [Stacks.js](https://github.com/blockstack/stacks.js/)
+* [Stacks Docs: Build Apps](https://docs.stacks.co/build-apps/overview)
 
 ## Clarity Resources
 
