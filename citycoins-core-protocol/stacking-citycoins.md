@@ -15,7 +15,7 @@ _e.g. if you select to Stack in a block height in reward cycle 1 then Stacking w
 
 You cannot Stack in the currently active reward cycle, only for the next reward cycle.
 
-## Reward Cycles
+## MiamiCoin Reward Cycles
 
 | Reward Cycle | Start Block | End Block |
 | :--- | :--- | :--- |

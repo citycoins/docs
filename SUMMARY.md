@@ -27,10 +27,10 @@
 
 ## Community Tools
 
+* [Block Time Calculator](https://stxtime.stxstats.xyz/)
 * [Catamaran Swaps](https://www.catamaranswaps.org/)
 * [MIA Analysis Script](https://gitlab.com/riot.ai/clarity-pool-tools/-/blob/master/tool-scripts/analysis-citycoins.ts)
 * [MIA Mining Block Explorer](http://miamining.com/)
-* [MIA Mining Dashboard](https://mia-mining-analysis.mutharasus.repl.co/)
 
 ## Developer Resources
 
