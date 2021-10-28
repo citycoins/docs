@@ -19,4 +19,3 @@ CityCoins are also **programmable** using [Clarity](https://clarity-lang.org), t
 This opens up endless possibilities for their utility, and new opportunities for developers, entrepreneurs, residents, and more.
 
 Please use the navigation on the left for more information!
-

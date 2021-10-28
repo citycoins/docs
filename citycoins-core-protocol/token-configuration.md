@@ -68,7 +68,7 @@ Errors:
 
 * `ERR_UNAUTHORIZED u2000`
 
-Updating the token URI \([example: MiamiCoin](https://cdn.citycoins.co/metadata/miamicoin.json)\) happens through calling the `set-token-uri` function, which accepts a new URI as an optional parameter.
+Updating the token URI ([example: MiamiCoin](https://cdn.citycoins.co/metadata/miamicoin.json)) happens through calling the `set-token-uri` function, which accepts a new URI as an optional parameter.
 
 ### send-many
 
@@ -165,6 +165,4 @@ Input: `none`
 Returns: `(ok tokenUri)`
 
 Returns the token URI for a CityCoin.
-
-
 

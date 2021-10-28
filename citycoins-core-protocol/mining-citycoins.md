@@ -2,18 +2,18 @@
 
 ## Overview
 
-Mining CityCoins is performed by transferring Stacks \(STX\) tokens into the smart contract in a given Stacks block, **and is a one-way process**. Once sent, the STX are committed to the contract and not returned. Miners can only participate once per block.
+Mining CityCoins is performed by transferring Stacks (STX) tokens into the smart contract in a given Stacks block, **and is a one-way process**. Once sent, the STX are committed to the contract and not returned. Miners can only participate once per block.
 
 Once the STX tokens are sent into the contract, they are distributed in one of two ways:
 
 * if there are people Stacking CityCoins, then 70% of the bid is sent to Stackers and 30% of the bid is sent to the custodied wallet for the city
 * if nobody is Stacking CityCoins, then 100% of the bid is sent to the custodied wallet for the city
 
-‍**Please note: Right after mining is activated and during the first reward cycle \(reward cycle \#0\), 100% of all STX sent by miners is transferred to the city.** During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely.
+‍**Please note: Right after mining is activated and during the first reward cycle (reward cycle #0), 100% of all STX sent by miners is transferred to the city.** During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely.
 
 ## Details
 
-Mining CityCoins is available through the [hosted user interface](https://minemiamicoin.com) and mining began at [block \#24497](https://explorer.stacks.co/blocks?chain=mainnet).
+Mining CityCoins is available through the [hosted user interface](https://minemiamicoin.com) and mining began at [block #24497](https://explorer.stacks.co/blocks?chain=mainnet).
 
 Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
 
@@ -22,7 +22,7 @@ A nominal transaction fee is required in order to send this transaction, paid in
 To mine for a single block with `mine-tokens`:
 
 * enter the amount you would like to bid for the block
-* \(optionally\) enter a memo to be recorded on chain
+* (optionally) enter a memo to be recorded on chain
 * submit the transaction to the smart contract
 
 To mine for multiple blocks with `mine-many`:
@@ -35,7 +35,7 @@ _Note: once STX are submitted to the contract they are distributed to the city's
 
 ## **Winner Selection**
 
-After miners send their STX to the contract, a winner is selected by a Verifiable Random Function \(VRF\) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
+After miners send their STX to the contract, a winner is selected by a Verifiable Random Function (VRF) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
 
 _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
 
@@ -53,7 +53,7 @@ If you submit a mining transaction in a block where you are already mining, it w
 
 The probability to win at least one block in a sequence of blocks with a fixed commit of `C` STX and a total of other miners `T` STX is the following:
 
-```text
+```
 P(win at least 1 block in N blocks) = 1 - (T / (T + C)) ^ N
 ```
 
@@ -194,4 +194,3 @@ Errors:
 * `ERR_STACKING_NOT_AVAILABLE u1015`
 
 Mining for many blocks happens through calling the `mine-many` function in the contract, which accepts a list of amounts up to 200 items in length.
-

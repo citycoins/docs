@@ -19,18 +19,18 @@
 
 * [MineMiamiCoin.com](https://minemiamicoin.com)
 * [MineCityCoins.com](https://minecitycoins.com)
-* [Brand Guide](https://cdn.citycoins.co/brand/CityCoins_BrandGuidelines.pdf)
-* [Discord](https://chat.citycoins.co)
+* [Brand Guide](https://cdn.citycoins.co/brand/CityCoins\_BrandGuidelines.pdf)
+* [Discord](https://discord.gg/citycoins)
 * [FAQ](https://www.citycoins.co/citycoins-faq)
 * [Twitter](https://twitter.com/mineCityCoins)
 * [Website](https://citycoins.co)
 
 ## Community Tools
 
-* [Block Time Calculator](https://stxtime.stxstats.xyz/)
-* [Catamaran Swaps](https://www.catamaranswaps.org/)
+* [Block Time Calculator](https://stxtime.stxstats.xyz)
+* [Catamaran Swaps](https://www.catamaranswaps.org)
 * [MIA Analysis Script](https://gitlab.com/riot.ai/clarity-pool-tools/-/blob/master/tool-scripts/analysis-citycoins.ts)
-* [MIA Mining Block Explorer](http://miamining.com/)
+* [MIA Mining Block Explorer](http://miamining.com)
 
 ## Developer Resources
 
@@ -53,7 +53,6 @@
 
 * [CityCoins GitHub](https://github.com/citycoins)
 * [MiamiCoin Website](https://www.citycoins.co/miamicoin)
-* [Stacks Blockchain](https://www.stacks.co/)
+* [Stacks Blockchain](https://www.stacks.co)
 * [Stacks Explorer](https://explorer.stacks.co)
 * [Stacks Web Wallet](https://www.hiro.so/wallet/install-web)
-

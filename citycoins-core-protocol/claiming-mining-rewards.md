@@ -2,8 +2,8 @@
 
 ## Overview
 
-Miners must wait for a maturity window of 100 blocks \(~16 hours\) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.  
-  
+Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.\
+\
 ‍**Please note:** CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
 
 ## Details
@@ -63,6 +63,4 @@ Returns: `true` or `false`
 Returns a boolean value indicating if the user's principal won and is eligible to claim the block reward at a given block height.
 
 _Note: this function will always return false if the token maturity window of 100 blocks did not pass._
-
-
 
