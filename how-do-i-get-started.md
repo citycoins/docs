@@ -1,25 +1,36 @@
 # How do I get started?
 
-## **Stacks Web Wallet**
+## Stacks **Wallets**
 
-The [Stacks Web Wallet](https://hiro.so/wallet/install-web) is required to interact with a CityCoin smart contract on the Stacks blockchain.\
-\
-It is a browser extension available for both Chrome and Firefox, and at this time mobile is not supported - use a desktop or laptop!\
-\
-In addition, each of the contract functions require sending a transaction to the smart contract, with transaction fees paid in Stacks (STX).
+CityCoins follow the [SIP-010 fungible token standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) on the Stacks blockchain, which is a fancy way of saying you'll need a Stacks wallet to interact with them.
+
+The currently supported wallets for CityCoins are listed below.
+
+|                                                        |                                                               |                                                     |
+| ------------------------------------------------------ | :-----------------------------------------------------------: | :-------------------------------------------------: |
+| **Features**                                           | ****[**Hiro Wallet**](https://hiro.so/wallet/install-web)**** | ****[**Xverse Wallet**](https://www.xverse.app)**** |
+| <p>Desktop Support</p><p><em>(Win/Mac/Linux)</em></p>  |                               ⚠                               |                                                     |
+| <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>     |                               ✅                               |                                                     |
+| <p>Mobile Support</p><p><em>(Androind/iPhone)</em></p> |                                                               |                          ✅                          |
+| Activation                                             |                               ✅                               |                                                     |
+| Mining                                                 |                               ✅                               |                                                     |
+| Stacking                                               |                               ✅                               |                                                     |
+| Send                                                   |                               ✅                               |                          ✅                          |
+| Receive                                                |                               ✅                               |                          ✅                          |
+
+{% hint style="warning" %}
+The desktop version of the Hiro Wallet does not support displaying, sending, or receiving CityCoins at this time. [Kindly let them know we want it!](https://github.com/hirosystems/stacks-wallet/issues/897)
+{% endhint %}
 
 ## **How to Acquire Stacks (STX)**
 
-As mentioned above, all transactions with CityCoins require Stacks (STX) as fuel.\
+All transactions on the Stacks blockchain require Stacks (STX) as fuel.\
 \
 To acquire Stacks, please see the [market list on CoinMarketCap](https://coinmarketcap.com/currencies/stacks/markets/) for supported exchanges.
 
 ## **How to HODL CityCoins**
 
-All CityCoins are fungible tokens on the Stacks blockchain, meaning they are stored as part of your Stacks account and viewable on the Explorer.
+All CityCoins are fungible tokens on Stacks, meaning they are stored as part of your Stacks account and viewable in the [Stacks Explorer](https://explorer.stacks.co) by searching for your Stacks address.
 
-The [Stacks Web Wallet](https://www.hiro.so/wallet/install-web) allows you to view your balance, send and receive CityCoins, and interact with smart contracts.
+When sending or receiving CityCoins, use the Stacks address of the sender and recipient.
 
-An example screenshot from the Stacks testnet is below:
-
-![wallet display example from testnet](<.gitbook/assets/wallet-token-example (1).png>)

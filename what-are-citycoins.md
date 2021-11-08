@@ -1,15 +1,15 @@
 # What are CityCoins?
 
-## **What are CityCoins?**
+CityCoins give communities the power to improve their cities, while providing crypto rewards to individual contributors and city governments alike. Each city has their own coin, starting with the launch of MiamiCoin (MIA) in August of 2021.
 
-CityCoins offer people a way to support their city and grow its crypto treasury while earning Bitcoin BTC and [Stacks](https://www.stacks.co) STX for themselves. Each city has their own coin, starting with Miami and MiamiCoin ($MIA).
+A CityCoin provides an ongoing crypto revenue stream for a city, and can be mined or bought by individuals who want to support the city and benefit from the protocol. There is no pre-mine, pre-sale, or ICO, and new CityCoins are only mined into existence.
 
-## **What is MiamiCoin?**
+A city can elect to use its growing crypto treasury to benefit the city and its constituents — think new public spaces, improvements to infrastructure, hosting city events, recruiting startups, and more.
 
-MiamiCoin ($MIA) is the first CityCoin to market, going live soon. MiamiCoin is a cryptocurrency powered by the Stacks Protocol, which enables smart contracts on Bitcoin.
+## What can I do with CityCoins?
 
-MiamiCoin provides an ongoing crypto revenue stream for the city, while also generating STX and BTC for $MIA holders. MiamiCoin can be mined or bought by individuals who want to support the Magic City and benefit from the Stacks protocol.
+With any CityCoin, you can mine it, hold it, stack it to earn STX, borrow it, lend it, and program it. Built on open source software, CityCoins are a new way for developers to create applications and experiment with innovative use cases.
 
-Mining MiamiCoin directly benefits the city of Miami by automatically directing STX to a wallet reserved for the city. MiamiCoin benefits holders by allowing them to Stack and earn STX through the Stacks protocol.
+## **Why are CityCoins built on Stacks?**
 
-The city of Miami can elect to use its growing crypto treasury to benefit the city and its constituents — think new public spaces, improvements to infrastructure, hosting city events, recruiting startups, and more.
+[Stacks](https://www.stacks.co) enables smart contracts and apps on Bitcoin. It enables a function called “[Stacking](https://stacks.org/stacking)“, which earns BTC when you lock STX in the protocol. CityCoins leverage a similar Stacking function to enable CityCoin holders to Stack their CityCoins to earn STX, which can be further Stacked to earn BTC.
