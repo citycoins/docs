@@ -7,7 +7,7 @@ While Stacking CityCoins is similar to Stacking STX, there are a few key differe
 Instead of rewards being delivered automatically during the cycle, Stackers must wait for the **reward cycles to pass** before claiming their Stacking rewards, which consist of:
 
 * the Stacks (STX) sent by miners
-* the amount of MiamiCoins they Stacked _(if it's the final cycle)_
+* the amount of CityCoins they Stacked, if unlocked
 
 For example, if you Stacked CityCoins for three cycles starting in Cycle 1, then you would be able to claim:
 
@@ -17,7 +17,7 @@ For example, if you Stacked CityCoins for three cycles starting in Cycle 1, then
 
 Each Stacker receives rewards proportionate to what they stacked against the total amount of Stacked CityCoins for the given reward cycle.
 
-The payouts are based on the amount Stacked by the user `S`, the total STX reward that cycle `R`, and the total of all Stackers `T`using the formula:\
+The payouts are based on the amount Stacked by the user `S`, the total STX reward that cycle `R`, and the total of all Stackers`T`using the formula:\
 `STX Rewards = (R * S) / T`
 
 ## Related Contract Functions

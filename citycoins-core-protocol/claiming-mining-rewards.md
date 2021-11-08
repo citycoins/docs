@@ -2,17 +2,23 @@
 
 ## Overview
 
-Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.\
-\
-‍**Please note:** CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
+Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.
+
+{% hint style="info" %}
+CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
+{% endhint %}
 
 ## Details
 
-Claiming mining rewards for CityCoins is available through the [hosted user interface](https://minemiamicoin.com).
+Anyone can create a user interface for claiming a CityCoin mining reward, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
 
-If a user is a winner for that block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](issuance-schedule.md).
+If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](issuance-schedule.md).
 
-_Note: If a user is not the winner for a block, the transaction will fail. Optionally, a user can call the `is-block-winner` function to see if their address won a given block before claiming._
+{% hint style="warning" %}
+If a user did not win the block, the transaction will fail.
+
+Optionally, a user can call the `is-block-winner` and `can-claim-mining-reward` functions to see if their address can claim a given block before submitting the claim transaction.
+{% endhint %}
 
 ## Related Contract Functions
 

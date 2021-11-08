@@ -4,7 +4,7 @@
 
 The token exists separate from the core contract as part of the CityCoins Token Protocol, however there are some functions used by the core contract to interact with the token.
 
-In addition to those functions, the token contract fully supports the SIP-010 fungible token standard on the Stacks blockchain.
+In addition to those functions, the token contract fully supports the [SIP-010 fungible token standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) on the Stacks blockchain.
 
 ## Related Contract Functions
 

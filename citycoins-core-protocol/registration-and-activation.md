@@ -13,7 +13,7 @@ There are no CityCoins issued or distributed prior to the start of mining.
 
 ## Details
 
-Registration happens by calling the `register-user` function in the CityCoin contract, which can be done with the [Stacks Web Wallet](https://hiro.so/wallet/install-web) through an interface like [minemiamicoin.com](https://minemiamicoin.com).
+Registration happens by calling the `register-user` function in the CityCoin contract, which can be done with the [Stacks Web Wallet](https://hiro.so/wallet/install-web) through an interface like [minecitycoins.com](https://minecitycoins.com).
 
 A nominal transaction fee is required in order to send this transaction, paid in STX, and you can optionally include a memo of up to 50 characters that will be recorded on-chain.
 
