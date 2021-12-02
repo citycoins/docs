@@ -6,7 +6,7 @@ The issuance schedule does not begin until [mining is activated](registration-an
 
 From there, the amount of CityCoins rewarded through mining follow a similar issuance schedule to that of Bitcoin and Stacks, where the mining rewards are cut in half over the next 20 years.
 
-**Please note: **there is a 10,000 block bonus reward for early miners who support the initiative.
+**Please note:** there is a 10,000 block bonus reward for early miners who support the initiative.
 
 | Time Period                   | Rewards           | Notes                               |
 | ----------------------------- | ----------------- | ----------------------------------- |
