@@ -18,7 +18,7 @@ Right after mining is activated and during the first reward cycle (reward cycle 
 
 
 
-During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely. **** See the [Stacking CityCoins section](broken-reference) for more detail.
+During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely. **** See the [Stackin[#overview](stacking-citycoins.md#overview "mention")g CityCoins section](broken-reference) for more detail.
 {% endhint %}
 
 ## Details
@@ -28,7 +28,7 @@ Anyone can create a user interface for mining a CityCoin, two examples being [mi
 Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
 
 {% hint style="warning" %}
-Once STX are submitted to the contract they are not returned, they are distributed to the city's custodied wallet and Stackers of a CityCoin.
+Once STX are submitted in a mining transaction, they are not returned, they are distributed to the city's custodied wallet and Stackers of a CityCoin.
 {% endhint %}
 
 A nominal transaction fee is required in order to send this transaction, paid in STX, and in a single mining transaction you can optionally include a memo that will be recorded on-chain.
@@ -51,7 +51,7 @@ After miners send their STX to the contract, a winner is selected by a Verifiabl
 
 _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
 
-Mining rewards cannot be claimed until a 100 block maturity window passes, see the [Claiming Mining Rewards](broken-reference) for more info.
+Mining rewards cannot be claimed until a 100 block maturity window passes, see the [Claiming Mining Rewards section](mining-citycoins.md#claiming-mining-rewards) for more info.
 
 ## **Mining Strategy**
 
@@ -90,7 +90,7 @@ Miners must wait for a maturity window of 100 blocks (\~16 hours) before they ca
 CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
 {% endhint %}
 
-If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](broken-reference).
+If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](token-configuration.md#issuance-schedule).
 
 {% hint style="warning" %}
 If a user did not win the block, the transaction will fail.

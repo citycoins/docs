@@ -14,7 +14,7 @@ In addition to those functions, the token contract fully supports the [SIP-010 f
 
 Miners receive coinbase rewards for mining CityCoins outlined in the table on this page per block.
 
-The issuance schedule does not begin until [mining is activated](broken-reference), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
+The issuance schedule does not begin until [mining is activated](registration-and-activation.md#overview), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
 
 From there, the amount of CityCoins rewarded through mining follow a similar issuance schedule to that of Bitcoin and Stacks, where the mining rewards are cut in half over the next 20 years.
 

@@ -31,3 +31,7 @@ The general process is as follows:
   _Note: to acquire Stacks, please see the_ [_market list on CoinMarketCap_](https://coinmarketcap.com/currencies/stacks/markets/) _for supported exchanges._
 * Submit the `register-user` transaction via the user interface, which records your Stacks address and optional memo on chain to signal activation of the CityCoin\
   _Note: once the threshold of 20 miners is reached, mining will begin in 150 Stacks blocks (\~24hrs)_
+
+{% hint style="info" %}
+Registration is _not required_ once the contract is activated. After this process is complete, anyone who completes a mining or stacking transaction will automatically be registered as a user within the contract.
+{% endhint %}
