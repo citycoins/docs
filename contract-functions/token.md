@@ -1,12 +1,8 @@
-# Token Configuration
+---
+description: CityCoin contract functions related to CityCoin tokens.
+---
 
-## Overview
-
-The token exists separate from the core contract as part of the CityCoins Token Protocol, however there are some functions used by the core contract to interact with the token.
-
-In addition to those functions, the token contract fully supports the [SIP-010 fungible token standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) on the Stacks blockchain.
-
-## Related Contract Functions
+# Token
 
 ### activate-token
 
@@ -21,7 +17,7 @@ Errors:
 * `ERR_UNAUTHORIZED u2000`
 * `ERR_TOKEN_ALREADY_ACTIVATED u2002`
 
-A one-time use function to activate the token halving as defined in the [issuance schedule](issuance-schedule.md) at a given Stacks block height. This function must be called by an active core contract, and once called, cannot be used again.
+A one-time use function to activate the token halving as defined in the [issuance schedule](broken-reference) at a given Stacks block height. This function must be called by an active core contract, and once called, cannot be used again.
 
 ### get-coinbase-thresholds
 
@@ -46,7 +42,7 @@ Returns the coinbase thresholds based on the Stacks block height the token was a
 * `coinbaseThreshold4` - the ending block height of the fourth 210,000 block period, including the 12,500 CityCoin block reward
 * `coinbaseThreshold5` - the ending block height of the fifth 210,000 block period, including the 6,250 CityCoin block reward
 
-Note: after each threshold is reached above, the perpetual block reward will remain at 3,125 CityCoins per block based on the [issuance schedule](issuance-schedule.md).
+Note: after each threshold is reached above, the perpetual block reward will remain at 3,125 CityCoins per block based on the [issuance schedule](broken-reference).
 
 ### get-coinbase-amount
 
@@ -54,7 +50,7 @@ Type: Read-only Function
 
 Input: `minerBlockHeight as uint`
 
-Returns: `mintedTokens as uint` based on the [issuance schedule](issuance-schedule.md) at the given block height
+Returns: `mintedTokens as uint` based on the [issuance schedule](broken-reference) at the given block height
 
 ### set-token-uri
 
@@ -89,6 +85,8 @@ Errors:
 Sending to many recipients happens through calling the `send-many` function in the token contract, which accepts a list up to 200 items in length.
 
 ## SIP-010 Functions
+
+[SIP-010](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) is the standard for fungible tokens on the Stacks blockchain, similar to ERC-20 on Ethereum. As part of the standard, all SIP-010 compliant tokens use the functions defined below.
 
 ### transfer
 
@@ -165,4 +163,3 @@ Input: `none`
 Returns: `(ok tokenUri)`
 
 Returns the token URI for a CityCoin.
-

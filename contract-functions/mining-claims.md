@@ -1,26 +1,8 @@
-# Claiming Mining Rewards
+---
+description: CityCoin contract functions related to mining claims.
+---
 
-## Overview
-
-Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.
-
-{% hint style="info" %}
-CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
-{% endhint %}
-
-## Details
-
-Anyone can create a user interface for claiming a CityCoin mining reward, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
-
-If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](issuance-schedule.md).
-
-{% hint style="warning" %}
-If a user did not win the block, the transaction will fail.
-
-Optionally, a user can call the `is-block-winner` and `can-claim-mining-reward` functions to see if their address can claim a given block before submitting the claim transaction.
-{% endhint %}
-
-## Related Contract Functions
+# Mining Claims
 
 ### claim-mining-reward
 
@@ -44,7 +26,7 @@ Errors:
 
 Claiming mining rewards happens through calling the `claim-mining-reward` function in the contract, which accepts the block height the miner mined in, and checks if the VRF value is between the `lowValue` and `highValue` for the miner.
 
-If the miner won the block, then the coinbase is minted for them based on block height of the claim and the [issuance schedule](issuance-schedule.md).
+If the miner won the block, then the coinbase is minted for them based on block height of the claim and the [issuance schedule](broken-reference).
 
 ### is-block-winner
 
@@ -69,4 +51,3 @@ Returns: `true` or `false`
 Returns a boolean value indicating if the user's principal won and is eligible to claim the block reward at a given block height.
 
 _Note: this function will always return false if the token maturity window of 100 blocks did not pass._
-

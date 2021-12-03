@@ -1,3 +1,7 @@
+---
+description: How to get started with Stacks and CityCoins.
+---
+
 # How do I get started?
 
 ## Stacks **Wallets**

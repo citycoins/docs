@@ -1,3 +1,7 @@
+---
+description: A quick intro to the CityCoins protocol.
+---
+
 # What are CityCoins?
 
 CityCoins give communities the power to improve their cities, while providing crypto rewards to individual contributors and city governments alike. Each city has their own coin, starting with the launch of MiamiCoin (MIA) in August of 2021.

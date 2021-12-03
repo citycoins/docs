@@ -1,6 +1,10 @@
-# CityCoin Contracts
+---
+description: Links and information about deployed CityCoin contracts.
+---
 
-## CityCoin
+# Contracts
+
+## CityCoin Protocol
 
 * [citycoin-vrf](https://explorer.stacks.co/txid/0x6e18dbc3a687270a7015ebef73a590d4f066538b41bf7cb7c8d7d891b6442964)\
   single contract used by all cities, takes a given stacks height and returns a uint via the on-chain VRF
