@@ -1,5 +1,5 @@
 ---
-description: General resources centered around the CityCoins ecosystem.
+description: General resources for getting involved with CityCoins.
 ---
 
 # General
@@ -32,15 +32,14 @@ CityCoins are ultimately powered by the community around them. Connect with fell
 
 ## Community Tools
 
-| Link                                                                                                                        | Description                                                                                                                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Block Time Calculator](https://stxtime.stxstats.xyz)                                                                       | Calculate an estimated amount of time between Stacks block heights                                                                                                                      |
-| [Catamaran Swaps](https://www.catamaranswaps.org)                                                                           | Trustless swaps between Bitcoin, Stacks, and SIP-010 tokens ([tutorial here](https://thetutorials.notion.site/thetutorials/How-to-use-Catamaranswaps-c9c0b864bdfc4f01b656be468b15d526)) |
-| [cryptoacptd](https://cryptoacptd.com)                                                                                      | Directory of businesses in Miami that accept crypto, including MIA                                                                                                                      |
-| [MiamiCoin Analysis Script](https://gitlab.com/riot.ai/clarity-pool-tools/-/blob/master/tool-scripts/analysis-citycoins.ts) | A tool to download all transactions for the MiamiCoin core and token contracts                                                                                                          |
-| [MiamiCoin Block Explorer](https://miamining.com)                                                                           | Block explorer and statistics for MiamiCoin                                                                                                                                             |
-| [MiamiVoice](https://miamivoice.org)                                                                                        | A MiamiCoin app that allows you to propose ideas and vote on how Miami should spend their funds raised through MiamiCoin($MIA) mining                                                   |
-| [MineMiamiCoin.com UI](https://github.com/syvita/mmc)                                                                       | The repository for the mining interface created by the Syvita guild, hosted at [minemiamicoin.com](https://minemiamicoin.com)                                                           |
-| [NewYorkCityCoin Block Explorer](https://mining.nyc)                                                                        | Block explorer and statistics for NewYorkCityCoin                                                                                                                                       |
-| [StacksOnChain: CityCoins Whales](https://stacksonchain.com/citycoinswhales)                                                | Dashboard showing the top ten largest wallet balances by Stacks address                                                                                                                 |
+| Link                                                                                                                        | Description                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Block Time Calculator](https://stxtime.stxstats.xyz)                                                                       | Calculate an estimated amount of time between Stacks block heights                                                                    |
+| [Catamaran Swaps](https://www.catamaranswaps.org)                                                                           | Trustless swaps between Bitcoin, Stacks, and SIP-010 tokens                                                                           |
+| [MiamiCoin Analysis Script](https://gitlab.com/riot.ai/clarity-pool-tools/-/blob/master/tool-scripts/analysis-citycoins.ts) | A tool to download all transactions for the MiamiCoin core and token contracts                                                        |
+| [MiamiCoin Block Explorer](https://miamining.com)                                                                           | Block explorer and statistics for MiamiCoin                                                                                           |
+| [MiamiVoice](https://miamivoice.org)                                                                                        | A MiamiCoin app that allows you to propose ideas and vote on how Miami should spend their funds raised through MiamiCoin($MIA) mining |
+| [MineMiamiCoin.com UI](https://github.com/syvita/mmc)                                                                       | The repository for the mining interface created by the Syvita guild, hosted at [minemiamicoin.com](https://minemiamicoin.com)         |
+| [NewYorkCityCoin Block Explorer](https://mining.nyc)                                                                        | Block explorer and statistics for NewYorkCityCoin                                                                                     |
+| [StacksOnChain: CityCoins Whales](https://stacksonchain.com/citycoinswhales)                                                | Dashboard showing the top ten largest wallet balances by Stacks address                                                               |
 

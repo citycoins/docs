@@ -7,19 +7,19 @@
 * [What are CityCoins?](about-citycoins/what-are-citycoins.md)
 * [How do I get started?](about-citycoins/how-do-i-get-started.md)
 
-## Core Protocol
-
-* [Registration and Activation](core-protocol/registration-and-activation.md)
-* [Mining CityCoins](core-protocol/mining-citycoins.md)
-* [Stacking CityCoins](core-protocol/stacking-citycoins.md)
-* [Token Configuration](core-protocol/token-configuration.md)
-
 ## CityCoins Resources
 
 * [General](citycoins-resources/general.md)
 * [MineCityCoins.com](https://minecitycoins.com)
 * [MineMiamiCoin.com](https://minemiamicoin.com)
 * [CitySwaps.com](https://www.cityswaps.com)
+
+## Core Protocol
+
+* [Registration and Activation](core-protocol/registration-and-activation.md)
+* [Mining CityCoins](core-protocol/mining-citycoins.md)
+* [Stacking CityCoins](core-protocol/stacking-citycoins.md)
+* [Token Configuration](core-protocol/token-configuration.md)
 
 ## Developer Resources
 
