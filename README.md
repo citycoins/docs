@@ -12,7 +12,7 @@ CityCoins have three main functions: **Activation**, **Mining**, and **Stacking*
 
 * **Activation:** CityCoins only exist through mining, which does not begin until 20 independent wallets signal activation after the contract is deployed. No ICO, no pre-sale, no pre-mine.
 * **Mining:** Anyone can mine CityCoins by forwarding STX into a CityCoins smart contract on the Stacks blockchain. 30% of the STX that miners forward is sent directly to a reserved wallet for the city.
-* **Stacking:** Anyone can Stack CityCoins by locking them in a CityCoins smart contract for determined reward cycles, and recieve a portion of the remaining 70% of the STX sent by miners.
+* **Stacking:** Anyone can Stack CityCoins by locking them in a CityCoins smart contract for determined reward cycles, and receive a portion of the remaining 70% of the STX sent by miners.
 
 CityCoins are also **programmable using** [**Clarity**](https://clarity-lang.org), the language that powers smart contracts on Stacks.
 
