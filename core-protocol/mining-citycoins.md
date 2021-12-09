@@ -18,7 +18,7 @@ Right after mining is activated and during the first reward cycle (reward cycle 
 
 
 
-During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely. **** See the [Stackin[#overview](stacking-citycoins.md#overview "mention")g CityCoins section](broken-reference) for more detail.
+During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely. **** See the [Stacking section](stacking-citycoins.md#overview) for more detail.
 {% endhint %}
 
 ## Details
