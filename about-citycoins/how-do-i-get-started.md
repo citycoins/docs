@@ -10,17 +10,17 @@ CityCoins follow the [SIP-010 fungible token standard](https://github.com/stacks
 
 The currently supported wallets for CityCoins are listed below.
 
-|                                                        |                                                               |                                                     |
-| ------------------------------------------------------ | :-----------------------------------------------------------: | :-------------------------------------------------: |
-| **Features**                                           | ****[**Hiro Wallet**](https://hiro.so/wallet/install-web)**** | ****[**Xverse Wallet**](https://www.xverse.app)**** |
-| <p>Desktop Support</p><p><em>(Win/Mac/Linux)</em></p>  |                               ⚠                               |                                                     |
-| <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>     |                               ✅                               |                                                     |
-| <p>Mobile Support</p><p><em>(Androind/iPhone)</em></p> |                                                               |                          ✅                          |
-| Activation                                             |                               ✅                               |                                                     |
-| Mining                                                 |                               ✅                               |                                                     |
-| Stacking                                               |                               ✅                               |                                                     |
-| Send                                                   |                               ✅                               |                          ✅                          |
-| Receive                                                |                               ✅                               |                          ✅                          |
+|                                                       |                                                               |                                                     |
+| ----------------------------------------------------- | :-----------------------------------------------------------: | :-------------------------------------------------: |
+| **Features**                                          | ****[**Hiro Wallet**](https://hiro.so/wallet/install-web)**** | ****[**Xverse Wallet**](https://www.xverse.app)**** |
+| <p>Desktop Support</p><p><em>(Win/Mac/Linux)</em></p> |                               ⚠                               |                                                     |
+| <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>    |                               ✅                               |                                                     |
+| <p>Mobile Support</p><p><em>(Android/iPhone)</em></p> |                                                               |                          ✅                          |
+| Activation                                            |                               ✅                               |                                                     |
+| Mining                                                |                               ✅                               |                                                     |
+| Stacking                                              |                               ✅                               |                                                     |
+| Send                                                  |                               ✅                               |                          ✅                          |
+| Receive                                               |                               ✅                               |                          ✅                          |
 
 {% hint style="warning" %}
 The desktop version of the Hiro Wallet does not support displaying, sending, or receiving CityCoins at this time. [Kindly let them know we want it!](https://github.com/hirosystems/stacks-wallet/issues/897)
