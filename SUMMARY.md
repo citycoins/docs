@@ -24,6 +24,12 @@
 ## Developer Resources
 
 * [General](developer-resources/general.md)
+* [Code Examples](developer-resources/code-examples/README.md)
+  * [Get Account Transactions](developer-resources/code-examples/get-account-transactions.md)
+  * [Activation](developer-resources/code-examples/activation.md)
+  * [Mining](developer-resources/code-examples/mining.md)
+  * [Mining Claims](developer-resources/code-examples/mining-claims.md)
+  * [Stacking](developer-resources/code-examples/stacking.md)
 * [Contracts](developer-resources/citycoin-contracts.md)
 * [Integrations](developer-resources/integrations/README.md)
   * [Overview](developer-resources/integrations/overview.md)
