@@ -32,7 +32,6 @@
   * [Stacking](developer-resources/code-examples/stacking.md)
 * [Contracts](developer-resources/citycoin-contracts.md)
 * [Integrations](developer-resources/integrations/README.md)
-  * [Overview](developer-resources/integrations/overview.md)
   * [Supporting Stacks](developer-resources/integrations/supporting-stacks.md)
   * [Supporting CityCoins](developer-resources/integrations/supporting-citycoins.md)
   * [Stacks Transactions](developer-resources/integrations/stacks-transactions.md)

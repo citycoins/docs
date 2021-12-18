@@ -6,4 +6,6 @@ description: A guide for integrating the Stacks blockchain and CityCoins protoco
 
 CityCoins are built on top of [the Stacks blockchain](https://stacks.co), with several options for integrating depending on the use case.
 
-This section is coming soon! You can find the [original content on GitHub](https://github.com/citycoins/integrations) until it's migrated over.
+Since CityCoins are powered by Stacks, the options range from running a Stacks node to creating smart contracts or applications that interact with the CityCoins protocol.
+
+For inspiration check out the [CityCoins blog](https://citycoins.co/blog) which highlights the ethos of the community and celebrates the successes of builders building together toward a CityCoins future.
