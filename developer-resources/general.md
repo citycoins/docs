@@ -31,8 +31,9 @@ For wallets that support Stacks, see the [how do I get started](../about-citycoi
 
 ## CityCoins
 
-|                                                                   |                                                                                                                             |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| [CityCoins Github Org](https://github.com/citycoins)              | The GitHub organization that contains the contracts, user interface, and other resources related to the CityCoins protocol  |
-| [CityCoins Contracts](https://github.com/citycoins/citycoin)      | The main contract repository including a test suite using Clarinet.                                                         |
-| [CityCoins UI Template](https://github.com/citycoins/citycoin-ui) | The main UI template used to create [minecitycoins.com](https://minecitycoins.com) and interact with the CityCoins protocol |
+|                                                                   |                                                                                                                                               |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CityCoins Github Org](https://github.com/citycoins)              | The GitHub organization that contains the contracts, user interface, and other resources related to the CityCoins protocol                    |
+| [CityCoins Contracts](https://github.com/citycoins/citycoin)      | The main contract repository including a test suite using Clarinet.                                                                           |
+| [CityCoins Scripts](https://github.com/citycoins/scripts)         | Node.js scripts that interact with the protocol via a prompt-driven console interface ([documentation](https://citycoins.github.io/scripts)). |
+| [CityCoins UI Template](https://github.com/citycoins/citycoin-ui) | The main UI template used to create [minecitycoins.com](https://minecitycoins.com) and interact with the CityCoins protocol                   |
