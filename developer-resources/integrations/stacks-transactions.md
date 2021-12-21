@@ -25,3 +25,9 @@ Examples of how to use post-conditions are outlined in the [Code Examples](../co
 Depending on the number of transactions in the mempool, setting a competitive fee on a transaction can help ensure it's processed in a timely matter by Stacks miners.
 
 Fees are automatically calculated by the [Hiro Web Wallet](https://hiro.so/wallet/install-web) when integrated.
+
+Resources to view the Stacks mempool and more about Stacks transactions are below:
+
+* [Haystack Mempool Explorer](https://haystack.tools/mempool)
+* [Stacks data center: mempool](https://stacksdata.info/#mempool)
+* [stxstats: transactions per day](https://www.stxstats.co)
