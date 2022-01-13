@@ -4,26 +4,6 @@ description: General resources centered around the CityCoins ecosystem.
 
 # General
 
-## Brand Resources
-
-CityCoins brand assets are available on the CDN hosted through CloudFlare Pages.
-
-Anything found in [this GitHub repo](https://github.com/citycoins/cdn) can also be found at [https://cdn.citycoins.co](https://cdn.citycoins.co).
-
-{% hint style="info" %}
-For example, the main CityCoins brand guide located at the link below:
-
-[https://github.com/citycoins/cdn/blob/main/cdn/brand/CityCoins\_BrandGuidelines.pdf](https://github.com/citycoins/cdn/blob/main/cdn/brand/CityCoins\_BrandGuidelines.pdf)
-
-
-
-Is also available at:
-
-[https://cdn.citycoins.co/brand/CityCoins\_BrandGuidelines.pdf](https://cdn.citycoins.co/brand/CityCoins\_BrandGuidelines.pdf)
-{% endhint %}
-
-The available resources include branding guidelines and assets, hosted logos, and token metadata for each CityCoin.
-
 ## Community Connections
 
 CityCoins are ultimately powered by the community around them. Connect with fellow CityCoiners!
@@ -51,4 +31,24 @@ See something missing or incorrect? Come [join the Discord](https://discord.gg/c
 | [StacksOnChain: CityCoins Whales](https://stacksonchain.com/citycoinswhales)                                                | [stacksonchain.btc](https://twitter.com/anononchain)    | Dashboard showing the top ten largest wallet balances by Stacks address                                                                                                                 |
 | [Syvita Mining](https://syvitamining.com)                                                                                   | [Syvita Guild](https://twitter.com/syvitaguild)         | Trustless mining pool implementation for CityCoins                                                                                                                                      |
 | [WenBlok](https://foragerr.github.io/wenblok/)                                                                              | [RaGe.btc](https://twitter.com/fora9err)                | A combination of blocks and estimated dates for important milestones in CityCoins                                                                                                       |
+
+## Brand Resources
+
+CityCoins brand assets are available on the CDN hosted through CloudFlare Pages.
+
+Anything found in [this GitHub repo](https://github.com/citycoins/cdn) can also be found at [https://cdn.citycoins.co](https://cdn.citycoins.co).
+
+{% hint style="info" %}
+For example, the main CityCoins brand guide located at the link below:
+
+[https://github.com/citycoins/cdn/blob/main/cdn/brand/CityCoins\_BrandGuidelines.pdf](https://github.com/citycoins/cdn/blob/main/cdn/brand/CityCoins\_BrandGuidelines.pdf)
+
+
+
+Is also available at:
+
+[https://cdn.citycoins.co/brand/CityCoins\_BrandGuidelines.pdf](https://cdn.citycoins.co/brand/CityCoins\_BrandGuidelines.pdf)
+{% endhint %}
+
+The available resources include branding guidelines and assets, hosted logos, and token metadata for each CityCoin.
 
