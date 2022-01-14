@@ -4,6 +4,34 @@ description: CityCoin contract functions related to mining.
 
 # Mining
 
+## Overview
+
+Anyone can create a user interface for mining a CityCoin, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
+
+Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
+
+{% hint style="warning" %}
+Miners can only participate once per block. Once STX are sent for mining a CityCoin **they are not returned,** they are distributed to the city's wallet and CityCoin Stackers.
+{% endhint %}
+
+A nominal transaction fee is required in order to send this transaction, paid in STX, and in a single mining transaction you can optionally include a memo that will be recorded on-chain.
+
+## Details
+
+To mine for a single block with `mine-tokens`:
+
+* enter the amount you would like to bid for the block
+* (optionally) enter a memo to be recorded on chain
+* submit the transaction to the smart contract
+
+To mine for multiple blocks with `mine-many`:
+
+* select the number of blocks you would like to mine for
+* enter the amount for each of the number of blocks selected
+* submit the transaction to the smart contract
+
+## Contract Functions
+
 ### get-mining-stats-at-block
 
 Type: Read-only Function

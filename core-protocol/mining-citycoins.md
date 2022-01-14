@@ -4,50 +4,38 @@ description: An overview of the mining component of the CityCoins protocol.
 
 # Mining CityCoins
 
+{% hint style="info" %}
+CityCoins require the [Stacks Web Wallet](https://hiro.so/wallet/install-web) to interact with the smart contracts on the [Stacks blockchain](https://stacks.co). (see [How do I get started?](../about-citycoins/how-do-i-get-started.md))
+{% endhint %}
+
 ## Overview
 
-Anyone can mine CityCoins by forwarding STX into a CityCoins smart contract on the Stacks blockchain. Miners can only participate once per block, **and STX sent to the contract are not returned.**
+Anyone can mine CityCoins by submitting a transaction to a CityCoins smart contract on the Stacks blockchain.
 
-Once the STX tokens are sent into the contract, they are distributed in one of two ways:
-
-* if there are people Stacking CityCoins, then 70% is sent to Stackers and 30% is sent to the custodied wallet for the city
-* if nobody is Stacking CityCoins, then 100% is sent to the custodied wallet for the city
-
-{% hint style="info" %}
-Right after mining is activated and during the first reward cycle (reward cycle #0), 100% of all STX sent by miners is transferred to the city.
-
-
-
-During this time, CityCoins can be stacked for the next reward cycle, and following this initialization period Stacking will be available indefinitely. **** See the [Stacking section](stacking-citycoins.md#overview) for more detail.
-{% endhint %}
-
-## Details
-
-Anyone can create a user interface for mining a CityCoin, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
-
-Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
+There are no hardware requirements and the protocol is open source, so anyone can build a website that interacts with it. The main website for mining/stacking CityCoins is [minecitycoins.com](https://minecitycoins.com).
 
 {% hint style="warning" %}
-Once STX are submitted in a mining transaction, they are not returned, they are distributed to the city's custodied wallet and Stackers of a CityCoin.
+Miners can only participate once per block. Once STX are sent for mining a CityCoin **they are not returned,** they are distributed to the city's wallet and CityCoin Stackers.
 {% endhint %}
 
-A nominal transaction fee is required in order to send this transaction, paid in STX, and in a single mining transaction you can optionally include a memo that will be recorded on-chain.
+There are also [code examples](../developer-resources/code-examples/mining.md), [Node.js scripts](https://github.com/citycoins/scripts), and [community resources](../citycoins-resources/general.md#community-tools) built around mining.
 
-To mine for a single block with `mine-tokens`:
+For a more technical explanation, please see the [contract functions for mining](../contract-functions/mining.md).
 
-* enter the amount you would like to bid for the block
-* (optionally) enter a memo to be recorded on chain
-* submit the transaction to the smart contract
+## How it Works
 
-To mine for multiple blocks with `mine-many`:
+CityCoin miners spend STX while competing to earn the CityCoin block reward, which is defined by the [token issuance schedule](token-configuration.md#issuance-schedule) and begins at 250,000 CityCoins per block.
 
-* select the number of blocks you would like to mine for
-* enter the amount for each of the number of blocks selected
-* submit the transaction to the smart contract
+* 30% of the STX that miners spend is sent directly to a reserved wallet for the city
+* 70% of the STX that miners spend are distributed to people who stack their CityCoins (Stackers)
+
+![How it Works](../.gitbook/assets/nyc-coin-how-it-works.gif)
+
+The city can claim this wallet and convert their STX to USD whenever they want. They can also Stack the STX to earn BTC.
 
 ## **Winner Selection**
 
-After miners send their STX to the contract, a winner is selected by a Verifiable Random Function (VRF) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
+After miners send their STX to the contract, a winner is later selected by a Verifiable Random Function (VRF) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
 
 _e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
 
@@ -69,22 +57,22 @@ The probability to win at least one block in a sequence of blocks with a fixed c
 P(win at least 1 block in N blocks) = 1 - (T / (T + C)) ^ N
 ```
 
-An example with real numbers: the table below assumes the total committed by miners is 500 STX, and you have 200 STX to spend.
+An example with real numbers: the table below assumes the total committed by miners in a block is 500 STX, and as a miner you have 200 STX to spend.
 
-|          |                  |             |
-| -------- | ---------------- | ----------- |
-| Spend    | Number of Blocks | Probability |
-| 1 STX    | 200              | 32.9%       |
-| 10 STX   | 20               | 32.7%       |
-| 12.5 STX | 16               | 32.6%       |
-| 100 STX  | 2                | 30.5%       |
-| 200 STX  | 1                | 28.5%       |
-
-
+|           |                      |                 |
+| --------- | -------------------- | --------------- |
+| **Spend** | **Number of Blocks** | **Probability** |
+| 1 STX     | 200                  | 32.9%           |
+| 10 STX    | 20                   | 32.7%           |
+| 12.5 STX  | 16                   | 32.6%           |
+| 100 STX   | 2                    | 30.5%           |
+| 200 STX   | 1                    | 28.5%           |
 
 ## Claiming Mining Rewards
 
-Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can claim their tokens in order to protect the VRF seed. After this window passes miners can claim their rewards at any time.
+Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can know the winner of a given block in order to protect the VRF seed.
+
+After this window passes miners can claim their CityCoin block rewards at any time.
 
 {% hint style="info" %}
 CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
