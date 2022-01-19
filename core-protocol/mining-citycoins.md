@@ -20,7 +20,7 @@ Miners can only participate once per block. **Once STX are sent for mining a Cit
 
 There are also [code examples](../developer-resources/code-examples/mining.md), [Node.js scripts](https://github.com/citycoins/scripts), and [community resources](../citycoins-resources/general.md#community-tools) built around mining.
 
-For a more technical explanation, please see the [contract functions for mining](../contract-functions/mining.md).
+For a more technical explanation, please see the contract functions for [mining](../contract-functions/mining.md) and [mining claims](../contract-functions/mining-claims.md).
 
 ## How it Works
 
