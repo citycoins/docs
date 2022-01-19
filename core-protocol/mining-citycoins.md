@@ -12,10 +12,10 @@ CityCoins require the [Stacks Web Wallet](https://hiro.so/wallet/install-web) to
 
 Anyone can mine CityCoins by submitting a transaction to a CityCoins smart contract on the Stacks blockchain.
 
-There are no hardware requirements and the protocol is open source, so anyone can build a website that interacts with it. The main website for mining/stacking CityCoins is [minecitycoins.com](https://minecitycoins.com).
+There are no hardware requirements and the protocol is open source, so anyone can build a website that interacts with it. The main website for mining/stacking CityCoins is [minecitycoins.com](https://minecitycoins.com), and others are listed under the CityCoins Resources category on the left menu.
 
 {% hint style="warning" %}
-Miners can only participate once per block. Once STX are sent for mining a CityCoin **they are not returned,** they are distributed to the city's wallet and CityCoin Stackers.
+Miners can only participate once per block. **Once STX are sent for mining a CityCoin they are not returned,** they are distributed to the city's wallet and CityCoin Stackers.
 {% endhint %}
 
 There are also [code examples](../developer-resources/code-examples/mining.md), [Node.js scripts](https://github.com/citycoins/scripts), and [community resources](../citycoins-resources/general.md#community-tools) built around mining.
@@ -29,23 +29,35 @@ CityCoin miners spend STX while competing to earn the CityCoin block reward, whi
 * 30% of the STX that miners spend is sent directly to a reserved wallet for the city
 * 70% of the STX that miners spend are distributed to people who stack their CityCoins (Stackers)
 
+{% hint style="info" %}
+There is only one winning miner per block that can claim the CityCoin reward.
+{% endhint %}
+
 ![How it Works](../.gitbook/assets/nyc-coin-how-it-works.gif)
 
-The city can claim this wallet and convert their STX to USD whenever they want. They can also Stack the STX to earn BTC.
+The city can claim this reserved wallet and convert their STX to USD whenever they want. They can also Stack the STX to earn BTC.
 
-## **Winner Selection**
+## How to Mine
 
-After miners send their STX to the contract, a winner is later selected by a Verifiable Random Function (VRF) weighted by the individual miners' bid compared to the total miners' bids sent in that block.
+The main website for mining/stacking CityCoins is [minecitycoins.com](https://minecitycoins.com), and others are listed under the CityCoins Resources category on the left menu.
 
-_e.g. if Alice sends 10 STX into the contract and Bob sends 30 STX, then Alice has a 25% chance and Bob has a 75% chance to win in that block._
+The general flow for mining on any CityCoins website will be:
 
-Mining rewards cannot be claimed until a 100 block maturity window passes, see the [Claiming Mining Rewards section](mining-citycoins.md#claiming-mining-rewards) for more info.
+1. Log in with your Stacks Wallet
+2. Select the number of blocks to mine for (1-200)
+3. Select the amount of STX to commit per block
+4. Submit the transaction
+5. Verify the transaction with the Stacks Wallet
+
+{% hint style="danger" %}
+**Remember:** nobody will ask you for your secret key and you should never enter it into a website.
+{% endhint %}
 
 ## **Mining Strategy**
 
 You can only submit a mining bid once per block. Once that transaction confirms then the bid is locked in. If you submit a mining transaction in a block where you are already mining, it will fail.
 
-You can also mine for multiple blocks in one transaction, by selecting the amount to spend per block and submitting the total bid up front. Once that transaction confirms then the bid is locked in for the following blocks.
+You can also mine for multiple blocks in one transaction by selecting the amount to spend per block and submitting the total bid up front. Once that transaction confirms then the bid is locked in for the following blocks.
 
 {% hint style="info" %}
 You can mine for up to 200 blocks based on the function in the contract, however due to transaction costs, mining over 100 blocks may require a higher fee for the transaction to be processed.
@@ -68,20 +80,38 @@ An example with real numbers: the table below assumes the total committed by min
 | 100 STX   | 2                    | 30.5%           |
 | 200 STX   | 1                    | 28.5%           |
 
-## Claiming Mining Rewards
+## **Claiming Rewards**
 
-Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can know the winner of a given block in order to protect the VRF seed.
+A winner cannot be verified until 100 Stacks blocks pass from the block mined (\~16 hours).
 
-After this window passes miners can claim their CityCoin block rewards at any time.
+Mining claims are based on the block height of the transaction, which can be seen by searching for your address in the [Stacks Explorer](https://explorer.stacks.co) and viewing previous mining transactions.
+
+![Mining Transaction in Explorer](<../.gitbook/assets/Screenshot from 2022-01-18 16-43-19.png>)
+
+If mining for a single block, then the block height of the transaction is the one to check.
+
+If mining for multiple blocks, then the block height of the transaction is the first block to check, followed by the number of blocks selected.
 
 {% hint style="info" %}
-CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
+For example, if mining for 100 blocks and the transaction confirms at block #45,600, then blocks #45,600 to #45,699 should be checked for rewards.
 {% endhint %}
 
-If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](token-configuration.md#issuance-schedule).
+There are [community tools](../citycoins-resources/general.md#community-tools) to help see the mining history including won and/or unclaimed blocks, two examples are below for MIA/NYC where `ADDRESS` is your Stacks address.
 
-{% hint style="warning" %}
-If a user did not win the block, the transaction will fail.
+* `https://miamining.com/history/ADDRESS`
+* `https://mining.nyc/history/ADDRESS`
 
-Optionally, a user can call the `is-block-winner` and `can-claim-mining-reward` functions to see if their address can claim a given block before submitting the claim transaction.
+![Mining History Example](<../.gitbook/assets/Screenshot from 2022-01-18 16-56-23.png>)
+
+
+
+The general flow for claiming a mining reward on any CityCoins website will be:
+
+1. Log in with your Stacks Wallet
+2. Enter the block height to claim the reward
+3. Submit the transaction
+4. Verify the transaction with the Stacks Wallet
+
+{% hint style="danger" %}
+**Remember:** nobody will ask you for your secret key and you should never enter it into a website.
 {% endhint %}

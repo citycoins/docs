@@ -36,5 +36,7 @@ To acquire Stacks, please see the [market list on CoinMarketCap](https://coinmar
 
 All CityCoins are fungible tokens on Stacks, meaning they are stored as part of your Stacks account and viewable in the [Stacks Explorer](https://explorer.stacks.co) by searching for your Stacks address.
 
+{% hint style="info" %}
 When sending or receiving CityCoins, use the Stacks address of the sender and recipient.
+{% endhint %}
 

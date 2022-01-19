@@ -17,7 +17,7 @@ There is no ICO, no pre-sale, and no pre-mine, and there are no CityCoins issued
 Once 20 users register to activate the contract, a 150 block (\~24hr) countdown begins, after which anyone is eligible to try and mine the CityCoins within a given Stacks block.
 
 {% hint style="info" %}
-_Registration is not required_ once the contract is activated. After this process is complete, anyone who completes a mining or stacking transaction will automatically be registered as a user.
+Registration **is not required** once the contract is activated. After this process is complete, anyone who completes a mining or stacking transaction will automatically be registered as a user.
 {% endhint %}
 
 A nominal transaction fee is required in order to send this transaction, paid in STX, and you can optionally include a memo of up to 50 characters that will be recorded on-chain.

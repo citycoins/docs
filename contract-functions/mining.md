@@ -8,7 +8,7 @@ description: CityCoin contract functions related to mining.
 
 Anyone can create a user interface for mining a CityCoin, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
 
-Mining CityCoins happens by calling one of two functions in the contract: `mine-tokens` and `mine-many`.
+Mining CityCoins happens by calling one of two functions in the contract: [`mine-tokens`](mining.md#mine-tokens) and [`mine-many`](mining.md#mine-many).
 
 {% hint style="warning" %}
 Miners can only participate once per block. Once STX are sent for mining a CityCoin **they are not returned,** they are distributed to the city's wallet and CityCoin Stackers.

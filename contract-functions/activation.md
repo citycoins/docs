@@ -94,7 +94,7 @@ Type: Read-only Function
 
 Input: `userId as uint`
 
-Returns: `(some prinicipal) OR (none)`
+Returns: `(some principal) OR (none)`
 
 Returns the principal of a given user ID.
 
