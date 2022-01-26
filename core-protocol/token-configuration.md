@@ -6,19 +6,25 @@ description: An overview of the token component of the CityCoins protocol.
 
 ## Overview
 
-The token exists separate from the core contract as part of the CityCoins Token Protocol, however there are some functions used by the core contract to interact with the token.
+CityCoins are fungible tokens on the Stacks blockchain with no ICO, no pre-sale, and no pre-mine.
 
-In addition to those functions, the token contract fully supports the [SIP-010 fungible token standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) on the Stacks blockchain.
+Once a CityCoin is deployed and [activated](registration-and-activation.md), the issuance schedule begins and winning miners mint the CityCoin into existence.
+
+CityCoins can be sent and received using a STX address, used for payment in smart contracts, and more.
+
+For a more technical explanation, please see the contract functions for [CityCoins tokens](../contract-functions/token.md).
 
 ## Issuance Schedule
 
-Miners receive coinbase rewards for mining CityCoins outlined in the table on this page per block.
+Miners receive coinbase rewards for mining CityCoins outlined in the table on this page **per block**.
 
 The issuance schedule does not begin until [mining is activated](registration-and-activation.md#overview), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
 
 From there, the amount of CityCoins rewarded through mining follow a similar issuance schedule to that of Bitcoin and Stacks, where the mining rewards are cut in half over the next 20 years.
 
-**Please note:** there is a 10,000 block bonus reward for early miners who support the initiative.
+{% hint style="info" %}
+There is a bonus block reward for early miners who participate in the first 10,000 blocks.
+{% endhint %}
 
 | Time Period                   | Rewards           | Notes                               |
 | ----------------------------- | ----------------- | ----------------------------------- |

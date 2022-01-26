@@ -4,6 +4,42 @@ description: CityCoin contract functions related to CityCoin tokens.
 
 # Token
 
+## Overview
+
+The CityCoins token contract exists separate from the CityCoins core contract as part of the protocol, however there are some functions used by the core contract to interact with the token.
+
+In addition to those functions, the token contract fully supports the [SIP-010 fungible token standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) on the Stacks blockchain, including functions for [`transfer`](token.md#transfer), [`get-balance`](token.md#get-balance), and more.
+
+CityCoins also support the [`send-many`](token.md#send-many) function, allowing up to 200 transfer operations to be performed in a single transaction.
+
+## Details
+
+### Decimals
+
+CityCoins were designed not to use decimals or micro-units to avoid confusion.
+
+With other cryptocurrencies, it is common to see smaller sub-divided units with a separate name. For example:
+
+| Currency  | Unit                         |
+| --------- | ---------------------------- |
+| Bitcoin   | 1 BTC = 100,000,000 Satoshis |
+| Stacks    | 1 STX = 1,000,000 uSTX       |
+| CityCoins | 1 CityCoin = 1 CityCoin      |
+
+### Minting
+
+CityCoins can only be minted by a core contract as part of the mining claim process.
+
+CityCoins are not minted until miners claim them.
+
+### Burning
+
+In the initial version (1.0.0) deployed for MIA, CityCoins can only be burned by the core contract, and no such functionality exists within the core contract.
+
+In the subsequent version (1.0.1) deployed for NYC and future CityCoins, CityCoins can be burned by anyone following the same checks and balances as the transfer function.
+
+## Contract Functions
+
 ### activate-token
 
 Type: Public Function
