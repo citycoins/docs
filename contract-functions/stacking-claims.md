@@ -4,6 +4,19 @@ description: CityCoin contract functions related to stacking claims.
 
 # Stacking Claims
 
+## Overview
+
+After CityCoins are Stacked in the contract, Stackers are required to claim their rewards and unlocked CityCoins after a cycle ends.
+
+Claiming rewards from Stacking CityCoins happens by calling the contract function [`claim-stacking-rewards`](stacking-claims.md#claim-stacking-reward).
+
+## Details
+
+The payouts are based on the amount Stacked by the user `R`, the total STX reward that cycle `S`, and the total of all Stackers`T`using the formula:\
+`STX Rewards = (R * S) / T`
+
+## Contract Functions
+
 ### claim-stacking-reward
 
 Type: Public Function

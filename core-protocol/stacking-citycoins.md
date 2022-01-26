@@ -4,24 +4,30 @@ description: An overview of the stacking component of the CityCoins protocol.
 
 # Stacking CityCoins
 
+{% hint style="info" %}
+CityCoins require the [Stacks Web Wallet](https://hiro.so/wallet/install-web) to interact with the smart contracts on the [Stacks blockchain](https://stacks.co). (see [How do I get started?](../about-citycoins/how-do-i-get-started.md))
+{% endhint %}
+
 ## Overview
 
-Anyone can Stack CityCoins by locking them in a CityCoins smart contract for determined reward cycles, and receive a portion of the remaining 70% of the STX sent by miners.
+Anyone can Stack CityCoins by locking them in a CityCoins smart contract for selected reward cycles and receive a portion of the remaining 70% of the STX sent by CityCoins miners.
 
 Reward cycles are 2,100 Stacks blocks in length (\~ 2 weeks), similar to Stacking STX.
 
 **When Stacking, you must select:**
 
-* the amount of CityCoins you want to Stack, which will be sent to the smart contract
+* the amount of CityCoins you want to Stack, which will be transferred to the smart contract
 * the number of reward cycles you want to participate in, maximum 32 (\~16 months)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 You cannot Stack in the currently active reward cycle, only for the next reward cycle.
 
 _e.g. if you select to Stack in a block height in reward cycle 1 then Stacking will begin in reward cycle 2._
 {% endhint %}
 
-The current reward cycle for a given block height can be found by calling `get-reward-cycle` in the core contract and supplying the block height.
+There are also [code examples](../developer-resources/code-examples/stacking.md), [Node.js scripts](https://github.com/citycoins/scripts), and [community resources](../citycoins-resources/general.md#community-tools) built around Stacking.
+
+For a more technical explanation, please see the contract functions for [Stacking](../contract-functions/stacking.md) and [Stacking claims](../contract-functions/stacking-claims.md).
 
 ## **Stacking Claims**
 
@@ -40,17 +46,16 @@ For example, if you Stacked CityCoins for three cycles starting in Cycle 1, then
 
 Each Stacker receives rewards proportionate to what they stacked against the total amount of Stacked CityCoins for the given reward cycle.
 
-The payouts are based on the amount Stacked by the user `S`, the total STX reward that cycle `R`, and the total of all Stackers`T`using the formula:\
-`STX Rewards = (R * S) / T`
-
 ## **Common Questions**
 
 ### **Do the Stacked CityCoins stay in my wallet?**
 
-No, they are transferred to the contract, and can be reclaimed once the selected cycles are complete. Some examples are below.
+No, they are transferred to the contract and can be reclaimed once the selected cycles are complete. Some examples are below.
 
 * if you Stack 50,000 CityCoins for 1 cycle, then after the cycle ends you can claim the STX rewards for that cycle in addition to the 50,000 CityCoins
 * if you Stack 50,000 CityCoins for 3 cycles, then after cycle 1 and 2 you can claim the STX rewards for each, and after cycle 3 you can claim the STX rewards in addition to the 50,000 CityCoins
+
+See the table under [Can I stack additional tokens for a cycle?](stacking-citycoins.md#can-i-stack-additional-tokens-for-a-cycle) for another example.
 
 ### **Is there a minimum amount for Stacking?**
 
@@ -80,16 +85,16 @@ A: Yes, if you call the `stack-tokens` function before the next cycle starts, yo
 In a more complex example:
 
 * the user has 1,000,000 CityCoins to Stack
-* the user calls `stack-tokens` during cycle 0 with 250,000 for 1 cycle
-* the user calls `stack-tokens` during cycle 0 with 250,000 for 1 cycle
-* the user calls `stack-tokens` during cycle 0 with 500,000 for 3 cycles
+* the user calls `stack-tokens` during cycle 3 with 250,000 for 1 cycle
+* the user calls `stack-tokens` during cycle 3 with 250,000 for 2 cycles
+* the user calls `stack-tokens` during cycle 3 with 500,000 for 3 cycles
 
-The payouts would then be based on the amount Stacked by the user `S`, the total STX reward that cycle `R`, and the total of all Stackers `T`using the formula: `STX Rewards = (R * S) / T`
+The payouts would then be based on the amount Stacked by the user `R`, the total STX reward that cycle `S`, and the total of all Stackers `T`using the formula: `STX Rewards = (R * S) / T`
 
 | Reward Cycle | Amount Stacked      | Claimable Amount  | STX Rewards           |
 | ------------ | ------------------- | ----------------- | --------------------- |
-| 0            | none                | none              | none                  |
-| 1            | 1,000,000 CityCoins | 500,000 CityCoins | `(R * 1,000,000) / T` |
-| 2            | 500,000 CityCoins   | 0 CityCoins       | `(R * 500,000) / T`   |
-| 3            | 500,000 CityCoins   | 0 CityCoins       | `(R * 500,000) / T`   |
-| 4            | none                | 500,000 CityCoins | none                  |
+| 3            | none                | none              | none                  |
+| 4            | 1,000,000 CityCoins | none              | `(R * 1,000,000) / T` |
+| 5            | 750,000 CityCoins   | 250,000 CityCoins | `(R * 500,000) / T`   |
+| 6            | 500,000 CityCoins   | 250,000 CityCoins | `(R * 500,000) / T`   |
+| 7            | none                | 500,000 CityCoins | none                  |

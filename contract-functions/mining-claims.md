@@ -24,9 +24,9 @@ Example 2: Alice sends 20 STX, Bob sends 30 STX, Carol sends 50 STX, and Dave se
 * Dave has a 50% chance of winning (100/200)
 {% endhint %}
 
-## Details
-
 Claiming a mining reward happens by calling the [`claim-mining-reward`](mining-claims.md#claim-mining-reward) function in the contract.
+
+## Details
 
 Miners must wait for a maturity window of 100 blocks (\~16 hours) before they can know the winner of a given block in order to protect the VRF seed.
 

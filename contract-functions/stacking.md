@@ -4,6 +4,38 @@ description: CityCoin contract functions related to stacking.
 
 # Stacking
 
+## Overview
+
+Anyone can create a user interface for Stacking CityCoins, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
+
+Stacking CityCoins happens by calling the contract function [`stack-tokens`](stacking.md#stack-tokens).
+
+{% hint style="warning" %}
+You cannot Stack in the currently active reward cycle, only for the next reward cycle.
+
+_e.g. if you select to Stack in a block height in reward cycle 1 then Stacking will begin in reward cycle 2._
+{% endhint %}
+
+A nominal transaction fee is required in order to send this transaction, paid in STX.
+
+## Details
+
+The current reward cycle for a given block height can be found by calling [`get-reward-cycle`](stacking.md#get-reward-cycle) in the core contract and supplying the block height.
+
+Stacking statistics for a given cycle are available through [`get-stacking-stats-at-cycle`](stacking.md#get-stacking-stats-at-cycle), and individual account Stacking details are available through [`get-stacker-at-cycle`](stacking.md#get-stacker-at-cycle).
+
+{% hint style="info" %}
+Both functions for Stacking information also include a `-or-default` version that returns empty default values instead of `some` or `none` Clarity types.
+{% endhint %}
+
+To Stack CityCoins for a user with `stack-tokens`:
+
+* enter the amount of CityCoins to Stack
+* enter the number of reward cycles to Stack for
+* submit the transaction to the smart contract
+
+## Contract Functions
+
 ### get-stacking-stats-at-cycle
 
 Type: Read-only Function
