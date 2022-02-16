@@ -8,19 +8,19 @@ description: An overview of the token component of the CityCoins protocol.
 
 CityCoins are fungible tokens on the Stacks blockchain with no ICO, no pre-sale, and no pre-mine.
 
-Once a CityCoin is deployed and [activated](registration-and-activation.md), the issuance schedule begins and winning miners mint the CityCoin into existence.
+Once a CityCoin is deployed and [activated](registration-and-activation.md), the emission schedule begins and winning miners mint the CityCoin into existence.
 
 CityCoins can be sent and received using a STX address, used for payment in smart contracts, and more.
 
 For a more technical explanation, please see the contract functions for [CityCoins tokens](../contract-functions/token.md).
 
-## Issuance Schedule
+## Emissions Schedule
 
 Miners receive coinbase rewards for mining CityCoins outlined in the table on this page **per block**.
 
-The issuance schedule does not begin until [mining is activated](registration-and-activation.md#overview), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
+The emission schedule does not begin until [mining is activated](registration-and-activation.md#overview), and once it begins, the current block height of the Stacks blockchain is recorded in the smart contract.
 
-From there, the amount of CityCoins rewarded through mining follow a similar issuance schedule to that of Bitcoin and Stacks, where the mining rewards are cut in half over the next 20 years.
+From there, the amount of CityCoins rewarded through mining follow a similar emission schedule to that of Bitcoin and Stacks, where the mining rewards are cut in half over the next 20 years.
 
 {% hint style="info" %}
 There is a bonus block reward for early miners who participate in the first 10,000 blocks.

@@ -36,7 +36,7 @@ After this window passes miners can claim their CityCoin block rewards at any ti
 CityCoins are not minted until miners claim them, and therefore the total supply will only increase when miners claim their CityCoins.
 {% endhint %}
 
-If the user won the block, the transaction will succeed and mint them the block reward per the [Issuance Schedule](../core-protocol/token-configuration.md#issuance-schedule).
+If the user won the block, the transaction will succeed and mint them the block reward per the [Emissions Schedule](../core-protocol/token-configuration.md#emissions-schedule).
 
 {% hint style="warning" %}
 If a user did not win the block, the transaction will fail.
@@ -68,7 +68,7 @@ Errors:
 
 Claiming mining rewards happens through calling the `claim-mining-reward` function in the contract, which accepts the block height the miner mined in, and checks if the VRF value is between the `lowValue` and `highValue` for the miner.
 
-If the miner won the block, then the coinbase is minted for them based on block height of the claim and the [issuance schedule](broken-reference).
+If the miner won the block, then the coinbase is minted for them based on block height of the claim and the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule).
 
 ### is-block-winner
 

@@ -53,7 +53,7 @@ Errors:
 * `ERR_UNAUTHORIZED u2000`
 * `ERR_TOKEN_ALREADY_ACTIVATED u2002`
 
-A one-time use function to activate the token halving as defined in the [issuance schedule](broken-reference) at a given Stacks block height. This function must be called by an active core contract, and once called, cannot be used again.
+A one-time use function to activate the token halving as defined in the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule) at a given Stacks block height. This function must be called by an active core contract, and once called, cannot be used again.
 
 ### get-coinbase-thresholds
 
@@ -78,7 +78,7 @@ Returns the coinbase thresholds based on the Stacks block height the token was a
 * `coinbaseThreshold4` - the ending block height of the fourth 210,000 block period, including the 12,500 CityCoin block reward
 * `coinbaseThreshold5` - the ending block height of the fifth 210,000 block period, including the 6,250 CityCoin block reward
 
-Note: after each threshold is reached above, the perpetual block reward will remain at 3,125 CityCoins per block based on the [issuance schedule](broken-reference).
+Note: after each threshold is reached above, the perpetual block reward will remain at 3,125 CityCoins per block based on the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule).
 
 ### get-coinbase-amount
 
@@ -86,7 +86,7 @@ Type: Read-only Function
 
 Input: `minerBlockHeight as uint`
 
-Returns: `mintedTokens as uint` based on the [issuance schedule](broken-reference) at the given block height
+Returns: `mintedTokens as uint` based on the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule) at the given block height
 
 ### set-token-uri
 

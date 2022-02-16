@@ -24,7 +24,7 @@ For a more technical explanation, please see the contract functions for [mining]
 
 ## How it Works
 
-CityCoin miners spend STX while competing to earn the CityCoin block reward, which is defined by the [token issuance schedule](token-configuration.md#issuance-schedule) and begins at 250,000 CityCoins per block.
+CityCoin miners spend STX while competing to earn the CityCoin block reward, which is defined by the [token emissions schedule](token-configuration.md#emissions-schedule) and begins at 250,000 CityCoins per block.
 
 * 30% of the STX that miners spend is sent directly to a reserved wallet for the city
 * 70% of the STX that miners spend are distributed to people who stack their CityCoins (Stackers)
