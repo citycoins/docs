@@ -7,5 +7,7 @@ root: ./
 redirects:
   citycoins-core-protocol/registration-and-activation: ./core-protocol/registration-and-activation.md
   citycoins-core-protocol/mining-citycoins: ./core-protocol/mining-citycoins.md
+  citycoins-core-protocol/claiming-mining-rewards: ./core-protocol/mining-citycoins.md
   citycoins-core-protocol/stacking-citycoins: ./core-protocol/stacking-citycoins.md
+  citycoins-core-protocol/claiming-stacking-rewards: ./core-protocol/stacking-citycoins.md
   citycoins-core-protocol/issuance-schedule: ./core-protocol/token-configuration.md
