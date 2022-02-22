@@ -25,6 +25,7 @@
 ## Developer Resources
 
 * [General](developer-resources/general.md)
+* [API](developer-resources/api.md)
 * [Code Examples](developer-resources/code-examples/README.md)
   * [Get Account Transactions](developer-resources/code-examples/get-account-transactions.md)
   * [Activation](developer-resources/code-examples/activation.md)

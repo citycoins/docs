@@ -40,6 +40,8 @@ In the subsequent version (1.0.1) deployed for NYC and future CityCoins, CityCoi
 
 ## Contract Functions
 
+### [API Ref: Token](https://api.citycoins.co/docs#tag/Token)
+
 ### activate-token
 
 Type: Public Function

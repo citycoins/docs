@@ -36,6 +36,8 @@ Once the threshold is reached, the `register-user` function will:
 
 ## Functions
 
+### [API Ref: Activation](https://api.citycoins.co/docs#tag/Activation)
+
 ### get-activation-block
 
 Type: Read-only Function

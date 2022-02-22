@@ -32,6 +32,8 @@ To mine for multiple blocks with `mine-many`:
 
 ## Contract Functions
 
+### [API Ref: Mining](https://api.citycoins.co/docs#tag/Mining)
+
 ### get-mining-stats-at-block
 
 Type: Read-only Function

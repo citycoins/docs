@@ -36,6 +36,8 @@ To Stack CityCoins for a user with `stack-tokens`:
 
 ## Contract Functions
 
+### [API Ref: Stacking](https://api.citycoins.co/docs#tag/Stacking)
+
 ### get-stacking-stats-at-cycle
 
 Type: Read-only Function
