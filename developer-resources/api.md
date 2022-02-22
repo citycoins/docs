@@ -25,4 +25,8 @@ Some quick examples:
 * [Get the current Stacks block height](https://api.citycoins.co/stacks/get-block-height)
 * [Get the activation block height for MIA](https://api.citycoins.co/activation/get-activation-block/mia)
 * [Get the mining stats at block 49000 for MIA](https://api.citycoins.co/mining/get-mining-stats-at-block/mia/49000)
-* [Get the total supply for MIA](https://api.citycoins.co/token/get-total-supply/mia)\
+* [Get the total supply for MIA](https://api.citycoins.co/token/get-total-supply/mia)
+
+### Implementation
+
+If you want to use this for your project, build a copy for yourself, or have any questions, please join the [CityCoins Discord](https://discord.gg/citycoins) or [file a GitHub Issue](https://github.com/citycoins/api/issues/new) and reach out!
