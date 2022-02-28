@@ -46,6 +46,8 @@ Optionally, a user can call the [`is-block-winner`](mining-claims.md#is-block-wi
 
 ## Functions
 
+### [API Ref: Mining Claims](https://api.citycoins.co/docs#tag/Mining-Claims)
+
 ### claim-mining-reward
 
 Type: Public Function

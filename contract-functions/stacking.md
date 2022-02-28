@@ -120,20 +120,6 @@ Returns: `firstBlockInCycle as uint`
 
 Returns the starting Stacks block height for a given reward cycle.
 
-### get-stacking-reward
-
-Type: Read-only Function
-
-Input: `userId as uint` and `targetCycle as uint`
-
-Returns: `entitledStackingReward as uint, or default (u0)`
-
-Returns the amount of STX a user can claim in a given reward cycle in uSTX. This method will only return a positive value if:
-
-* the current block height is in a subsequent reward cycle
-* the Stacker locked up CityCoins in the target reward cycle
-* the Stacker locked up _enough_ CityCoins to receive at least one uSTX
-
 ### stack-tokens
 
 Type: Public Function
