@@ -4,6 +4,10 @@ description: An overview of the token component of the CityCoins protocol.
 
 # Token Configuration
 
+{% hint style="info" %}
+CityCoins require the [Stacks Web Wallet](https://hiro.so/wallet/install-web) to interact with the smart contracts on the [Stacks blockchain](https://stacks.co). (see [How do I get started?](../about-citycoins/how-do-i-get-started.md))
+{% endhint %}
+
 ## Overview
 
 CityCoins are fungible tokens on the Stacks blockchain with no ICO, no pre-sale, and no pre-mine.
