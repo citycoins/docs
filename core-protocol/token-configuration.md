@@ -30,18 +30,18 @@ From there, the amount of CityCoins rewarded through mining follow a [doubling e
 There is a bonus block reward for early miners who participate in the first 10,000 blocks.
 {% endhint %}
 
-| Time Period                   | Rewards           | Notes                               |
-| ----------------------------- | ----------------- | ----------------------------------- |
-| First 10,000 Stacks blocks    | 250,000 CityCoins | approx. 3 months                    |
-| Next 35,000 Stacks blocks     | 100,000 CityCoins | approx. 4 years, minus bonus period |
-| Next 85,000 Stacks blocks     | 50,000 CityCoins  | approx. 4 years                     |
-| Next 185,000 Stacks blocks    | 25,000 CityCoins  | approx. 4 years                     |
-| Next 385,000 Stacks blocks    | 12,500 CityCoins  | approx. 4 years                     |
-| Next 785,000 Stacks blocks    | 6,250 CityCoins   | approx. 4 years                     |
-| After 1,585,000 Stacks blocks | 3,125 CityCoins   | continues indefinitely              |
+| Epoch | Epoch Length | Epoch End Block | Block Reward |
+| ----- | ------------ | --------------- | ------------ |
+| 0     | 10,000       | 10,000          | 250,000      |
+| 1     | 25,000       | 35,000          | 100,000      |
+| 2     | 50,000       | 85,000          | 50,000       |
+| 3     | 100,000      | 185,000         | 25,000       |
+| 4     | 200,000      | 385,000         | 12,500       |
+| 5     | 400,000      | 785,000         | 6,250        |
+| 6     | 800,000      | 1,585,000       | 3,125        |
 
-After the final halving at 1,050,000 Stacks blocks past the Stacks block height recorded at activation, the total supply is estimated to be 17,500,000,000 CityCoins and will increase indefinitely by up to 164,062,500 CityCoins per year.
+After the final halving the total supply is estimated to be 17,500,000,000 CityCoins and will increase indefinitely by an estimated 164,062,500 CityCoins per year.
 
 {% hint style="info" %}
-The values above are denoted in CityCoins, and the values in the contract and APIs the value will represent the reward/supply above multiplied by 1,000,000 to account for the 6 decimal places as micro-CityCoins.
+The values above are denoted in CityCoins, and the values in the contract and APIs the value will represent the reward/supply above multiplied by `1,000,000` to account for the 6 decimal places as micro-CityCoins.
 {% endhint %}
