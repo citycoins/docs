@@ -8,9 +8,7 @@ description: Interacting with the CityCoins protocol.
 
 Each CityCoin is defined by a set of contracts for that city, including `core`, `token`, and `auth`.
 
-The [Contracts page](../citycoin-contracts.md) lists the currently deployed CityCoins contracts with links to their on-chain source.
-
-The [GitHub repo](https://github.com/citycoins/citycoin/tree/main/contracts) is where the contracts are stored and updated before deployment.
+The [Contracts page](../citycoin-contracts.md) lists the currently deployed CityCoins contracts with links to their on-chain source. The [GitHub repo](https://github.com/citycoins/citycoin/tree/main/contracts) is where the contracts are stored and updated before deployment.
 
 ## SIP-010 Standard
 
@@ -23,7 +21,7 @@ SIP-010 includes function definitions for:
 * transfer
 * name (human-readable)
 * symbol (ticker)
-* decimals (CityCoins have 0)
+* decimals (CityCoins have 6)
 * balance
 * total supply
 * token URI (externally hosted metadata)
@@ -48,7 +46,7 @@ The list must contain at least one entry with the following values:
 
 ## Token Metadata
 
-[Metadata for CityCoins](https://github.com/citycoins/cdn/tree/main/cdn/metadata) are stored in a CDN available at [https://cdn.citycoins.co](https://cdn.citycoins.co).
+[Metadata for CityCoins](https://github.com/citycoins/cdn/tree/main/cdn/metadata) are stored in a CDN available at [https://cdn.citycoins.co](https://cdn.citycoins.co/).
 
 [MiamiCoin (MIA) example](https://cdn.citycoins.co/metadata/miamicoin.json):&#x20;
 

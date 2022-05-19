@@ -11,9 +11,12 @@ It is built with Cloudflare Workers and micro-stacks, and the [code is open sour
 ### Things to Note
 
 * uses simple typed responses and provides detailed error messages
-* all `:cityname` routes accept three letter city names, e.g. mia, nyc
-* all `:blockheight` routes always follow `:cityname` routes when required
-* all additional parameters follow `:cityname` and `:blockheight` routes
+* all CityCoin contract routes start with `:version` and `:cityname`
+  * e.g. `/v1/mia/mining/get-mining-stats-at-block/57934`
+* `:version` accepts the major CityCoins contract version, e.g. v1, v2
+* `:cityname` routes accept three letter city names, e.g. mia, nyc
+* all additional parameters follow the order of operations below
+  * `:blockheight > :cycleid > :userid > :address`
 * routes are structured the same as the contract functions and documentation
 
 ### Endpoint Examples

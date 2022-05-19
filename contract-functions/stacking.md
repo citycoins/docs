@@ -6,7 +6,7 @@ description: CityCoin contract functions related to stacking.
 
 ## Overview
 
-Anyone can create a user interface for Stacking CityCoins, two examples being [minecitycoins.com](https://minecitycoins.com) and [minemiamicoin.com](https://minemiamicoin.com).
+Anyone can create a user interface for Stacking CityCoins, two examples being [minecitycoins.com](https://minecitycoins.com) and [syvitamining.com](https://syvitamining.com).
 
 Stacking CityCoins happens by calling the contract function [`stack-tokens`](stacking.md#stack-tokens).
 

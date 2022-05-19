@@ -6,10 +6,11 @@ description: CityCoin contract functions related to activation and registration.
 
 ## Overview
 
-The launch of a CityCoin happens in a two-step process:
+The launch of a CityCoin happens in a three-step process:
 
 1. The contract for a CityCoin is deployed mainnet on the Stacks blockchain
-2. 20 unique wallets send a transaction to the contract signaling activation
+2. The auth contract is initialized (a one-time function to set everything up)
+3. 20 unique wallets send a transaction to the contract signaling activation
 
 Once the threshold is met, a 150 block (\~24hr) countdown begins after which anyone is eligible to try and mine the CityCoins within a given Stacks block.
 
@@ -29,10 +30,10 @@ Once the threshold is reached, the `register-user` function will:
 
 * calculate the activation block height + the activation delay
 * set the `core` as active in the core contract map in `auth`
-*   set the `token` as active and set the coinbase thresholds
+*   set the `token` as active and set the coinbase amounts and coinbase thresholds
 
     (based on the activation block height)
-* set the coinbase thresholds in `core` to match that of `token`
+* set the coinbase amounts and thresholds in `core` to match that of `token`
 
 ## Functions
 
@@ -46,7 +47,7 @@ Success: `(ok (var-get activationBlock)) returned as a uint`
 
 Error: `ERR_CONTRACT_NOT_ACTIVATED u1005`
 
-Returns the Stacks block height at which the contract was activated, or an error if not.
+Returns the Stacks block height at which the city was activated, or an error if not.
 
 ### get-activation-delay
 
@@ -54,7 +55,7 @@ Type: Read-only Function
 
 Returns: `(var-get activation-delay) as a uint`
 
-Returns the activation delay for mining and Stacking to become available.
+Returns the activation delay for mining and stacking to become available.
 
 ### get-activation-status
 
@@ -63,6 +64,14 @@ Type: Read-only Function
 Returns: `(var-get activationReached) as a boolean`
 
 Returns the activation status of the contract.
+
+get-activation-target
+
+Type: Read-only Function
+
+Returns: `(var-get activationTarget) as a uint`
+
+Returns the activation target of the contract, which is the block mining and stacking will become available.
 
 ### get-activation-threshold
 

@@ -15,6 +15,7 @@ The Stacks Node API provides both a self-contained Docker image and manual insta
 Doing so provides access to a [robust API](https://hirosystems.github.io/stacks-blockchain-api/) that allows for querying accounts, transactions, smart contracts, and more.
 
 * [Main Repository](https://github.com/hirosystems/stacks-blockchain-api)
+* [Digital Ocean 1-Click App](https://marketplace.digitalocean.com/apps/stacks-blockchain)
 * [Hiro Hosted Version](https://stacks-node-api.testnet.stacks.co/v2/info)
 * [API Documentation](https://hirosystems.github.io/stacks-blockchain-api/)
 
@@ -38,12 +39,16 @@ The [stacks-announce mailing list](https://groups.google.com/a/stacks.org/g/anno
 
 ## Installation Methods
 
+{% hint style="info" %}
+The [Digital Ocean 1-Click App](https://marketplace.digitalocean.com/apps/stacks-blockchain) is the fastest way to get started, but the options above are available for custom implementations and environments.
+{% endhint %}
+
 * [Using Docker](https://github.com/hirosystems/stacks-blockchain-api/blob/master/running\_an\_api.md)
 * [Install from Source](https://github.com/hirosystems/stacks-blockchain-api/blob/master/running\_api\_from\_source.md)
 
 The Syvita Guild also created the repository below, which contains a quick start script that sets up each component based on their cloned versions using Docker.
 
-[https://github.com/syvita/stacks-api-node](https://github.com/syvita/stacks-api-node)
+[https://github.com/syvita/stacks-api-node](https://github.com/syvita/stacks-api-node)&#x20;
 
 ## Optional: Stacks Explorer
 
@@ -52,8 +57,8 @@ The Stacks Explorer provides a web interface to interact with Stacks blockchain 
 Some examples include:
 
 * [Hosted by Hiro](https://explorer.stacks.co)
-* [Hosted by PlanBetter](https://explorer.planbetter.org)
-* [Hosted by Syvita](https://explorer.syvita.org)
+* [Hosted by PlanBetter](https://explorer.planbetter.org/)
+* [Hosted by Syvita](https://explorer.syvita.org/)
 
 The Stacks Explorer is [available on GitHub](https://github.com/hirosystems/explorer) built with react, [next.js](https://github.com/zeit/next.js) and [@stacks/ui](https://github.com/blockstack/ui).
 
@@ -67,7 +72,7 @@ The Stacking protocol is described in [SIP-007](https://github.com/stacksgov/sip
 
 A few high-level notes about the protocol:
 
-* A STX holder must qualify for a reward slot by controlling a Stacks wallet with >= 0.02% of the total unlocked Stacks tokens (currently \~110,000 STX, and visible on [stacking.club](https://stacking.club))
+* A STX holder must qualify for a reward slot by controlling a Stacks wallet with >= 0.02% of the total unlocked Stacks tokens (currently \~110,000 STX, and visible on [stacking.club](https://stacking.club/))
 * A STX holder must broadcast a signed message before the reward cycle begins that:
   * Locks the associated Stacks tokens for a protocol-specified lockup period (reward cycles are 2,100 Stacks blocks in length, maximum of 12)
   * Specifies the Bitcoin address to receive the funds
@@ -83,4 +88,4 @@ It is deployed at [SP000000000000000000002Q6VF78.pox](https://explorer.stacks.co
 
 The documentation is available at [https://docs.blockstack.org/references/stacking-contract](https://docs.blockstack.org/references/stacking-contract).
 
-Additional Stacking information and statistics are available at [https://stacking.club/](https://stacking.club)
+Additional Stacking information and statistics are available at [https://stacking.club/](https://stacking.club/)

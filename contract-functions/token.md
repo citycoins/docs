@@ -16,15 +16,15 @@ CityCoins also support the [`send-many`](token.md#send-many) function, allowing 
 
 ### Decimals
 
-CityCoins were designed not to use decimals or micro-units to avoid confusion.
+CityCoins have 6 decimals, commonly denoted with `u` for `micro-`.
 
-With other cryptocurrencies, it is common to see smaller sub-divided units with a separate name. For example:
-
-| Currency  | Unit                         |
-| --------- | ---------------------------- |
-| Bitcoin   | 1 BTC = 100,000,000 Satoshis |
-| Stacks    | 1 STX = 1,000,000 uSTX       |
-| CityCoins | 1 CityCoin = 1 CityCoin      |
+| Currency        | Unit                                  |
+| --------------- | ------------------------------------- |
+| Bitcoin         | 1 BTC = 100,000,000 Satoshis          |
+| Stacks          | 1 STX = 1,000,000 micro-STX (uSTX)    |
+| CityCoins       | 1 CityCoin = 1,000,000 micro-CityCoin |
+| MiamiCoin       | 1 MIA = 1,000,000 uMIA                |
+| NewYorkCityCoin | 1 NYC = 1,000,000 NYC                 |
 
 ### Minting
 
@@ -34,9 +34,7 @@ CityCoins are not minted until miners claim them.
 
 ### Burning
 
-In the initial version (1.0.0) deployed for MIA, CityCoins can only be burned by the core contract, and no such functionality exists within the core contract.
-
-In the subsequent version (1.0.1) deployed for NYC and future CityCoins, CityCoins can be burned by anyone following the same checks and balances as the transfer function.
+CityCoins can be burned by their owners following the same checks and balances as the transfer function.
 
 ## Contract Functions
 
@@ -121,6 +119,34 @@ Errors:
 * `ERR_UNAUTHORIZED u2000`
 
 Sending to many recipients happens through calling the `send-many` function in the token contract, which accepts a list up to 200 items in length.
+
+### burn
+
+Type: Public Function
+
+Input: `amount as uint` and `owner as principal`
+
+Success: `(ok true)`
+
+Errors:
+
+* `ERR_UNAUTHORIZED u2000`
+
+Allows a user or contract to burn tokens with the same guards as token transfers.
+
+### convert-to-v2
+
+Type: Public Function
+
+Input: `none`
+
+Success: `(ok true)`
+
+Errors:
+
+* `ERR_V1_BALANCE_NOT_FOUND u2003`
+
+This function checks the V1 CityCoin balance for the user, burns the V1 amount, and mints the equivalent V2 CityCoin amount.
 
 ## SIP-010 Functions
 

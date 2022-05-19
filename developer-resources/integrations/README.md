@@ -8,4 +8,4 @@ CityCoins are built on top of [the Stacks blockchain](https://stacks.co), with s
 
 Since CityCoins are powered by Stacks, the options range from running a Stacks node to creating smart contracts or applications that interact with the CityCoins protocol.
 
-For inspiration check out the [CityCoins blog](https://citycoins.co/blog) which highlights the ethos of the community and celebrates the successes of builders building together toward a CityCoins future.
+For inspiration check out the [CityCoins blog](https://citycoins.co/blog) which highlights the ethos of the community and the [CityCoins Wiki](https://citycoins.wiki), both of which celebrate the successes of builders and community members working together toward a CityCoins future.
