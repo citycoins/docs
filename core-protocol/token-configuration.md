@@ -38,7 +38,7 @@ There is a bonus block reward for early miners who participate in the first 10,0
 | 3     | 100,000      | 185,000         | 25,000       |
 | 4     | 200,000      | 385,000         | 12,500       |
 | 5     | 400,000      | 785,000         | 6,250        |
-| 6     | 800,000      | 1,585,000       | 3,125        |
+| 6     | n/a          | n/a             | 3,125        |
 
 After the final halving the total supply is estimated to be 17,500,000,000 CityCoins and will increase indefinitely by an estimated 164,062,500 CityCoins per year.
 
