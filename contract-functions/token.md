@@ -14,17 +14,16 @@ CityCoins also support the [`send-many`](token.md#send-many) function, allowing 
 
 ## Details
 
-### Decimals
+{% hint style="info" %}
+CityCoins have 6 decimals, denoted with u for micro-.\
 
-CityCoins have 6 decimals, commonly denoted with `u` for `micro-`.
 
-| Currency        | Unit                                  |
-| --------------- | ------------------------------------- |
-| Bitcoin         | 1 BTC = 100,000,000 Satoshis          |
-| Stacks          | 1 STX = 1,000,000 micro-STX (uSTX)    |
-| CityCoins       | 1 CityCoin = 1,000,000 micro-CityCoin |
-| MiamiCoin       | 1 MIA = 1,000,000 uMIA                |
-| NewYorkCityCoin | 1 NYC = 1,000,000 NYC                 |
+1 CityCoin = 1,000,000 micro-CityCoin
+
+1 MIA = 1,000,000 uMIA
+
+1 NYC = 1,000,000 uNYC
+{% endhint %}
 
 ### Minting
 

@@ -45,3 +45,21 @@ After the final halving the total supply is estimated to be 17,500,000,000 CityC
 {% hint style="info" %}
 The values above are denoted in CityCoins, and the values in the contract and APIs the value will represent the reward/supply above multiplied by `1,000,000` to account for the 6 decimal places as micro-CityCoins.
 {% endhint %}
+
+### Decimals
+
+CityCoins have 6 decimals, denoted with `u` for `micro-`.
+
+| Currency        | Unit                                  |
+| --------------- | ------------------------------------- |
+| Bitcoin         | 1 BTC = 100,000,000 Satoshis          |
+| Stacks          | 1 STX = 1,000,000 micro-STX (uSTX)    |
+| CityCoins       | 1 CityCoin = 1,000,000 micro-CityCoin |
+| MiamiCoin       | 1 MIA = 1,000,000 uMIA                |
+| NewYorkCityCoin | 1 NYC = 1,000,000 NYC                 |
+
+Since CityCoins have 6 decimals, there will be places that may show the balance of `CityCoins * 1,000,000`. **This is not a bug.**
+
+What's showing is the "raw" value on-chain, which represents micro-CityCoins. Consider a `50,000 MIA` block reward - claiming from the contract will mint `50,000,000,000 uMIA` which is then displayed correctly in wallets based on the number of decimals.
+
+You can also see this in V1 to V2 conversion transactions, where for example, `50 MIA (V1)` is burned and `50,000,000 uMIA (V2)` minted, and both are equivalent in value because V2 MIA has 6 decimal places.
