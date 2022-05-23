@@ -69,15 +69,15 @@ Errors:
 * citycoin-core: `ERR_CONTRACT_NOT_ACTIVATED u1005`
 * citycoin-token: `ERR_TOKEN_NOT_ACTIVATED u2001`
 
-Returns the coinbase thresholds based on the Stacks block height the token was activated, including:
+Returns the coinbase thresholds based on the Stacks block height the token was activated, based on the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule) as a tuple.
 
-* `coinbaseThreshold1` - the ending block height of the first 210,000 block period, including the 250,000 CityCoin bonus block reward and the 100,000 CityCoin block reward
-* `coinbaseThreshold2` - the ending block height of the second  210,000 block period, including the 50,000 CityCoin block reward
-* `coinbaseThreshold3` - the ending block height of the third 210,000 block period, including the 25,000 CityCoin block reward
-* `coinbaseThreshold4` - the ending block height of the fourth 210,000 block period, including the 12,500 CityCoin block reward
-* `coinbaseThreshold5` - the ending block height of the fifth 210,000 block period, including the 6,250 CityCoin block reward
+* `coinbaseThreshold1` - bonus + first epoch
+* `coinbaseThreshold2` - second epoch
+* `coinbaseThreshold3` - third epoch
+* `coinbaseThreshold4` - fourth epoch
+* `coinbaseThreshold5` - fifth epoch
 
-Note: after each threshold is reached above, the perpetual block reward will remain at 3,125 CityCoins per block based on the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule).
+Note: after each threshold is completed above, the perpetual block reward will remain at 3,125 CityCoins per block based on the sixth epoch in the [emissions schedule](../core-protocol/token-configuration.md#emissions-schedule).
 
 ### get-coinbase-amount
 
