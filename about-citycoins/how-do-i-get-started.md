@@ -14,7 +14,7 @@ The currently supported wallets for CityCoins are listed below.
 | ----------------------------------------------------- | :---------------------------------------------------: | :-----------------------------------------: |
 | **Features**                                          | [**Hiro Wallet**](https://hiro.so/wallet/install-web) | [**Xverse Wallet**](https://www.xverse.app) |
 | <p>Desktop Support</p><p><em>(Win/Mac/Linux)</em></p> |                           ⚠                           |                                             |
-| <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>    |                           ✅                           |                                             |
+| <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>    |                           ✅                           |                      ✅                      |
 | <p>Mobile Support</p><p><em>(Android/iPhone)</em></p> |                                                       |                      ✅                      |
 | Activation                                            |                           ✅                           |                      ✅                      |
 | Mining                                                |                           ✅                           |                      ✅                      |

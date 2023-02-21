@@ -11,7 +11,6 @@
 
 * [General](citycoins-resources/general.md)
 * [MineCityCoins.com](https://minecitycoins.com)
-* [CitySwaps.com](https://www.cityswaps.com)
 * [SyvitaMining.com](https://syvitamining.com)
 
 ## Core Protocol

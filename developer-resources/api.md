@@ -32,4 +32,4 @@ Some quick examples:
 
 ### Implementation
 
-If you want to use this for your project, build a copy for yourself, or have any questions, please join the [CityCoins Discord](https://discord.gg/citycoins) or [file a GitHub Issue](https://github.com/citycoins/api/issues/new) and reach out!
+If you want to use this for your project, build a copy for yourself, or have any questions, [file a GitHub Issue](https://github.com/citycoins/api/issues/new) and reach out!

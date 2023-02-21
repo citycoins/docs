@@ -8,9 +8,8 @@ description: Creating, monitoring, and interacting with Stacks blockchain transa
 
 These libraries include everything you need to work with the [Stacks blockchain](https://stacks.co).
 
-* [Stacks.js Libraries](https://github.com/blockstack/stacks.js)
-* [Stacks.js Documentation](https://blockstack.github.io/stacks.js/modules/transactions.html)
-* [Stacks.js Documentation (alt)](https://stacks-js-git-master-blockstack.vercel.app/)
+* [Stacks.js Libraries](https://github.com/hirosystems/stacks.js)
+* [Stacks.js Documentation](https://stacks.js.org)
 * [micro-stacks Libraries](https://github.com/fungible-systems/micro-stacks/)
 * [micro-stacks Documentation](https://docs.micro-stacks.dev/)
 
@@ -46,11 +45,10 @@ Examples of how to use post-conditions are outlined in the [Code Examples](../co
 
 Depending on the number of transactions in the mempool, setting a competitive fee on a transaction can help ensure it's processed in a timely matter by Stacks miners.
 
-Fees are automatically calculated by the [Hiro Web Wallet](https://hiro.so/wallet/install-web) when integrated.
+Fees are automatically calculated by the [Hiro Web Wallet](https://wallet.hiro.so/wallet/install-web) when integrated.
 
 Resources to view the Stacks mempool and more about Stacks transactions are below:
 
 * [Haystack Mempool Explorer](https://haystack.tools/mempool)
 * [Stacks data center: mempool](https://stacksdata.info/#mempool)
-* [STXStats: transactions per day](https://www.stxstats.co/)
-* [CityCoins: get network status script](https://github.com/citycoins/scripts/blob/main/getnetworkstatus.js)
+* [CityCoins: get network status script](https://github.com/citycoins/scripts/blob/main/src/get-network-status.ts)
