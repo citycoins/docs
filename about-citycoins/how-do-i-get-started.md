@@ -16,6 +16,7 @@ The currently supported wallets for CityCoins are listed below.
 | <p>Desktop Support</p><p><em>(Win/Mac/Linux)</em></p> |                           ⚠                           |                                             |
 | <p>Web Support</p><p><em>(Chrome/Firefox)</em></p>    |                           ✅                           |                      ✅                      |
 | <p>Mobile Support</p><p><em>(Android/iPhone)</em></p> |                                                       |                      ✅                      |
+| <p>Hardware Support<br>(Ledger only)</p>              |                           ✅                           |                                             |
 | Activation                                            |                           ✅                           |                      ✅                      |
 | Mining                                                |                           ✅                           |                      ✅                      |
 | Stacking                                              |                           ✅                           |                      ✅                      |
