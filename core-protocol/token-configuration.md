@@ -30,15 +30,7 @@ From there, the amount of CityCoins rewarded through mining follow a [doubling e
 There is a bonus block reward for early miners who participate in the first 10,000 blocks.
 {% endhint %}
 
-| Epoch | Epoch Length | Epoch End Block | Block Reward |
-| ----- | ------------ | --------------- | ------------ |
-| 0     | 10,000       | 10,000          | 250,000      |
-| 1     | 25,000       | 35,000          | 100,000      |
-| 2     | 50,000       | 85,000          | 50,000       |
-| 3     | 100,000      | 185,000         | 25,000       |
-| 4     | 200,000      | 385,000         | 12,500       |
-| 5     | 400,000      | 785,000         | 6,250        |
-| 6     | n/a          | n/a             | 3,125        |
+<table data-header-hidden><thead><tr><th width="150">Time Period</th><th width="150">Rewards</th><th width="163">Notes</th><th width="150"></th></tr></thead><tbody><tr><td>Epoch</td><td>Epoch Length</td><td>Epoch End Block</td><td>Block Reward</td></tr><tr><td>0</td><td>10,000</td><td>10,000</td><td>250,000</td></tr><tr><td>1</td><td>25,000</td><td>35,000</td><td>100,000</td></tr><tr><td>2</td><td>50,000</td><td>85,000</td><td>50,000</td></tr><tr><td>3</td><td>100,000</td><td>185,000</td><td>25,000</td></tr><tr><td>4</td><td>200,000</td><td>385,000</td><td>12,500</td></tr><tr><td>5</td><td>400,000</td><td>785,000</td><td>6,250</td></tr><tr><td>6</td><td>n/a</td><td>n/a</td><td>3,125</td></tr></tbody></table>
 
 After the final halving the total supply is estimated to be 17,500,000,000 CityCoins and will increase indefinitely by an estimated 164,062,500 CityCoins per year.
 
@@ -50,13 +42,7 @@ The values above are denoted in CityCoins, and the values in the contract and AP
 
 CityCoins have 6 decimals, denoted with `u` for `micro-`.
 
-| Currency        | Unit                                  |
-| --------------- | ------------------------------------- |
-| Bitcoin         | 1 BTC = 100,000,000 Satoshis          |
-| Stacks          | 1 STX = 1,000,000 micro-STX (uSTX)    |
-| CityCoins       | 1 CityCoin = 1,000,000 micro-CityCoin |
-| MiamiCoin       | 1 MIA = 1,000,000 uMIA                |
-| NewYorkCityCoin | 1 NYC = 1,000,000 NYC                 |
+<table><thead><tr><th width="189">Currency</th><th>Unit</th></tr></thead><tbody><tr><td>Bitcoin</td><td>1 BTC = 100,000,000 Satoshis</td></tr><tr><td>Stacks</td><td>1 STX = 1,000,000 micro-STX (uSTX)</td></tr><tr><td>CityCoins</td><td>1 CityCoin = 1,000,000 micro-CityCoin</td></tr><tr><td>MiamiCoin</td><td>1 MIA = 1,000,000 uMIA</td></tr><tr><td>NewYorkCityCoin</td><td>1 NYC = 1,000,000 NYC</td></tr></tbody></table>
 
 Since CityCoins have 6 decimals, there will be places that may show the balance of `CityCoins * 1,000,000`. **This is not a bug.**
 

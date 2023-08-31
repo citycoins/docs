@@ -58,7 +58,6 @@ Some examples include:
 
 * [Hosted by Hiro](https://explorer.stacks.co)
 * [Hosted by PlanBetter](https://explorer.planbetter.org/)
-* [Hosted by Syvita](https://explorer.syvita.org/)
 
 The Stacks Explorer is [available on GitHub](https://github.com/hirosystems/explorer) built with react, [next.js](https://github.com/zeit/next.js) and [@stacks/ui](https://github.com/blockstack/ui).
 

@@ -16,4 +16,4 @@ With any CityCoin, you can mine it, hold it, stack it to earn STX, borrow it, le
 
 ## **Why are CityCoins built on Stacks?**
 
-[Stacks](https://www.stacks.co) enables smart contracts and apps on Bitcoin. It enables a function called “[Stacking](https://stacks.org/stacking)“, which earns BTC when you lock STX in the protocol. CityCoins leverage a similar Stacking function to enable CityCoin holders to Stack their CityCoins to earn STX, which can be further Stacked to earn BTC.
+[Stacks](https://www.stacks.co/) enables smart contracts and apps on Bitcoin. It enables a function called “[Stacking](https://stacks.org/stacking)“, which earns BTC when you lock STX in the protocol. CityCoins leverage a similar Stacking function to enable CityCoin holders to Stack their CityCoins to earn STX, which can be further Stacked to earn BTC.

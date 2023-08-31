@@ -91,10 +91,4 @@ In a more complex example:
 
 The payouts would then be based on the amount Stacked by the user `R`, the total STX reward that cycle `S`, and the total of all Stackers `T`using the formula: `STX Rewards = (R * S) / T`
 
-| Reward Cycle | Amount Stacked      | Claimable Amount  | STX Rewards           |
-| ------------ | ------------------- | ----------------- | --------------------- |
-| 3            | none                | none              | none                  |
-| 4            | 1,000,000 CityCoins | none              | `(R * 1,000,000) / T` |
-| 5            | 750,000 CityCoins   | 250,000 CityCoins | `(R * 500,000) / T`   |
-| 6            | 500,000 CityCoins   | 250,000 CityCoins | `(R * 500,000) / T`   |
-| 7            | none                | 500,000 CityCoins | none                  |
+<table data-header-hidden><thead><tr><th>Reward Cycle</th><th width="200">Amount Stacked</th><th>Claimable Amount</th><th>STX Rewards</th></tr></thead><tbody><tr><td>Reward Cycle</td><td>Amount Stacked</td><td>Claimable Amount</td><td>STX Rewards</td></tr><tr><td>3</td><td>none</td><td>none</td><td>none</td></tr><tr><td>4</td><td>1,000,000 CityCoins</td><td>none</td><td><code>(R * 1,000,000) / T</code></td></tr><tr><td>5</td><td>750,000 CityCoins</td><td>250,000 CityCoins</td><td><code>(R * 500,000) / T</code></td></tr><tr><td>6</td><td>500,000 CityCoins</td><td>250,000 CityCoins</td><td><code>(R * 500,000) / T</code></td></tr><tr><td>7</td><td>none</td><td>500,000 CityCoins</td><td>none</td></tr></tbody></table>

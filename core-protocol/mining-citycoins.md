@@ -89,8 +89,6 @@ There are two main options for mining pools:
 * **custodial:** an administrator for the pool will manage funds, make contract calls, and make payouts to pool members
 * **non-custodial:** powered by smart contracts, miners can participate simply by sending a transaction and the funds, mining, and payouts are managed by the contract
 
-The [Syvita Guild](https://twitter.com/syvitamining) started the first custodial mining pool for MiamiCoin, and has since deployed a non-custodial version at [syvitamining.com](https://syvitamining.com) targeting all current and future CityCoins.
-
 {% hint style="warning" %}
 Always _do your own research_ (DYOR) before participating in a pool by joining the community, evaluating the code, and fully understanding the process.
 {% endhint %}

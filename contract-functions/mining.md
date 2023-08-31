@@ -6,7 +6,7 @@ description: CityCoin contract functions related to mining.
 
 ## Overview
 
-Anyone can create a user interface for mining a CityCoin, two examples being [minecitycoins.com](https://minecitycoins.com) and [syvitamining.com](https://syvitamining.com).
+Anyone can create a user interface for mining a CityCoin, one examples being [minecitycoins.com](https://minecitycoins.com).
 
 Mining CityCoins happens by calling one of two functions in the contract: [`mine-tokens`](mining.md#mine-tokens) and [`mine-many`](mining.md#mine-many).
 
